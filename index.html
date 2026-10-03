@@ -1,386 +1,328 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ghana Passport Atlas</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#faf7f2; --surface:#ffffff; --surface2:#f3eee6; --ink:#1d1a16; --muted:#6b645a; --line:#e5ddd0;
-  --accent:#c8501e; --accent-ink:#ffffff; --gold:#d9a21b; --green:#2f7d4f; --blue:#2c6fbb; --red:#c0392b;
-  --shadow:0 1px 2px rgba(40,25,10,.06),0 8px 24px rgba(40,25,10,.06);
-  --r:16px;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#14110e; --surface:#1d1915; --surface2:#26211b; --ink:#f2ece3; --muted:#a39a8d; --line:#332d25;
-    --accent:#ee7a45; --accent-ink:#1a0d05; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#14110e; --surface:#1d1915; --surface2:#26211b; --ink:#f2ece3; --muted:#a39a8d; --line:#332d25;
-  --accent:#ee7a45; --accent-ink:#1a0d05; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Plus Jakarta Sans",system-ui,sans-serif}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;margin:0;letter-spacing:-.01em}
-button,input,select{font:inherit;color:inherit}
-.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
-
-/* header */
-header.hero{padding:40px 0 20px;border-bottom:1px solid var(--line);
-  background:radial-gradient(900px 300px at 85% -20%,color-mix(in srgb,var(--accent) 22%,transparent),transparent),var(--bg)}
-.hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
-.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
-h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:6px 0 10px}
-.sub{color:var(--muted);max-width:640px}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 14px}
-.stat b{font-family:Fraunces,serif;font-size:20px;display:block;line-height:1.1}
-.stat span{font-size:12px;color:var(--muted)}
-.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 12px;cursor:pointer}
-
-/* alert banner */
-.banner{background:color-mix(in srgb,var(--gold) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--gold) 45%,var(--line));border-radius:12px;padding:12px 14px;margin:18px 0 0;font-size:13.5px}
-.banner b{color:var(--ink)}
-
-/* tabs */
-.tabs{display:flex;gap:4px;overflow-x:auto;padding:14px 0 0;scrollbar-width:none}
-.tab{white-space:nowrap;border:1px solid transparent;background:none;padding:9px 16px;border-radius:999px;cursor:pointer;color:var(--muted);font-weight:600}
-.tab:hover{background:var(--surface2)}
-.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
-.tab .n{opacity:.6;font-weight:500;margin-left:4px;font-size:12px}
-
-/* filters */
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:18px 0;box-shadow:var(--shadow)}
-.grid-f{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 18px;align-items:end}
-label.f{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-label.f .val{color:var(--ink);text-transform:none;letter-spacing:0;font-weight:600}
-input[type=search],input[type=number],select{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%}
-input[type=range]{width:100%;accent-color:var(--accent)}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:13px;font-weight:500}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:14px}
-.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.seg button{border:0;background:var(--bg);padding:7px 14px;cursor:pointer;font-weight:600;font-size:13px}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.link{background:none;border:0;color:var(--accent);cursor:pointer;font-weight:600;padding:4px}
-
-/* cards */
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:60px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow);transition:transform .15s}
-.card:hover{transform:translateY(-2px)}
-.card.hidden-card{opacity:.45}
-.ch{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.ch h3{font-size:21px;line-height:1.15}
-.flag{font-size:30px;line-height:1}
-.reg{font-size:12px;color:var(--muted)}
-.badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700}
-.b-free{background:color-mix(in srgb,var(--green) 18%,transparent);color:var(--green)}
-.b-voa{background:color-mix(in srgb,var(--blue) 18%,transparent);color:var(--blue)}
-.b-eta{background:color-mix(in srgb,var(--gold) 25%,transparent);color:#8a6200}
-:root[data-theme="dark"] .b-eta{color:var(--gold)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .b-eta{color:var(--gold)}}
-.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.fact{background:var(--surface2);border-radius:10px;padding:8px 10px}
-.fact small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
-.fact b{font-size:15px}
-.months{display:grid;grid-template-columns:repeat(12,1fr);gap:3px}
-.months i{font-style:normal;font-size:10px;text-align:center;border-radius:4px;padding:2px 0;background:var(--surface2);color:var(--muted)}
-.months i.on{background:var(--green);color:#fff;font-weight:700}
-.safety{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
-.dots{display:inline-flex;gap:3px}.dots span{width:9px;height:9px;border-radius:50%;background:var(--line)}
-.s1 .dots span:nth-child(-n+1){background:var(--green)}
-.s2 .dots span:nth-child(-n+2){background:var(--gold)}
-.s3 .dots span:nth-child(-n+3){background:#e07a1f}
-.s4 .dots span:nth-child(-n+4){background:var(--red)}
-.vibes{display:flex;flex-wrap:wrap;gap:5px}
-.vibe{font-size:12px;background:var(--surface2);border-radius:6px;padding:2px 8px;color:var(--muted)}
-.actions{display:flex;gap:8px;margin-top:auto}
-.btn{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 12px;cursor:pointer;font-weight:600;font-size:13px}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);flex:1}
-.btn.on{background:var(--gold);border-color:var(--gold);color:#2a1d00}
-.empty{padding:60px 0;text-align:center;color:var(--muted)}
-
-/* table */
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);margin-bottom:60px}
-table{border-collapse:collapse;width:100%;min-width:860px}
-th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
-th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);cursor:pointer;background:var(--surface2);position:sticky;top:0}
-tr:hover td{background:var(--surface2)}
-td.name{font-weight:700;cursor:pointer}
-
-/* modal */
-dialog{border:0;border-radius:20px;padding:0;max-width:760px;width:calc(100% - 24px);background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.4);max-height:92vh}
-dialog::backdrop{background:rgba(10,6,2,.55);backdrop-filter:blur(3px)}
-.mh{padding:20px 22px 0;display:flex;justify-content:space-between;gap:12px}
-.mh h2{font-size:28px}
-.mtabs{display:flex;gap:2px;overflow-x:auto;padding:12px 16px 0;border-bottom:1px solid var(--line)}
-.mtab{background:none;border:0;padding:10px 12px;cursor:pointer;color:var(--muted);font-weight:600;border-bottom:2px solid transparent;white-space:nowrap}
-.mtab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
-.mbody{padding:18px 22px 24px;overflow-y:auto;max-height:62vh}
-.mbody h4{margin:18px 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-.mbody h4:first-child{margin-top:0}
-.mbody ul{margin:0;padding-left:20px}.mbody li{margin:4px 0}
-.callout{border-radius:12px;padding:12px 14px;background:var(--surface2);margin:10px 0}
-.callout.warn{background:color-mix(in srgb,var(--red) 12%,var(--surface));border:1px solid color-mix(in srgb,var(--red) 35%,var(--line))}
-.cost{width:100%;border-collapse:collapse}
-.cost td,.cost th{padding:8px 6px;border-bottom:1px solid var(--line);white-space:normal;position:static;background:none;cursor:default;text-transform:none;letter-spacing:0;font-size:14px;color:var(--ink)}
-.cost tr:hover td{background:none}
-.cost td:last-child{text-align:right;font-weight:700}
-.vid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
-.vid{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--bg)}
-.vid:hover{border-color:var(--accent)}
-.vid b{display:block}.vid small{color:var(--muted)}
-.foot{font-size:12px;color:var(--muted);padding:30px 0 60px;border-top:1px solid var(--line)}
-@media(max-width:560px){.hero-top{flex-direction:column}.mh h2{font-size:23px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Passport Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
+<main class="page-shell">
+  <header class="page-header">
+    <p class="eyebrow">Ghana ordinary passport · vacation planner</p>
+    <div class="title-row">
+      <h1>Visa-Free List</h1>
+      <div class="rates-wrap">
+        <div class="rates">
+          <div class="rate-control">
+            <label for="usdRate">USD → GHS</label>
+            <input id="usdRate" type="number" min="0" step="0.01" value="11.46" inputmode="decimal">
+          </div>
+          <div class="rate-control">
+            <label for="nights">Nights</label>
+            <input id="nights" type="number" min="1" max="60" step="1" value="7" inputmode="numeric">
+          </div>
+        </div>
+        <small class="rate-note">Rate is editable. Prices are estimates, not quotes.</small>
+      </div>
+    </div>
+    <p class="intro">41 destinations open to Ghanaian passport holders without a prior visa: ECOWAS free movement, visa-on-arrival and online-authorisation countries. Each one has flights from Accra, best months, hotel and Airbnb costs, safety, things to do and TikTok/YouTube searches. Filter it down, shortlist what you like and hide what you don't.</p>
+    <p class="note-band"><b>Check before you book.</b> Mali, Burkina Faso and Niger left ECOWAS in January 2025 and most governments advise against travel there. The "about 67 destinations" figure counts more places than this list. Several Caribbean and Asia routings can need transit visas for Ghanaians, so check every connection.</p>
+  </header>
 
-<header class="hero">
-  <div class="wrap">
-    <div class="hero-top">
-      <div>
-        <div class="eyebrow">🇬🇭 Ordinary Ghanaian passport</div>
-        <h1>The Ghana Passport Atlas</h1>
-        <p class="sub">Every visa-free, visa-on-arrival and eTA destination on your list — with flights from Accra, best months, hotel &amp; Airbnb costs, safety, things to do, and TikTok/YouTube search links. Filter, shortlist and hide as you plan.</p>
-        <div class="stats" id="stats"></div>
-      </div>
-      <button class="icon-btn" id="themeBtn" title="Toggle theme">🌓 Theme</button>
-    </div>
-    <div class="banner"><b>Read first:</b> Mali, Burkina Faso &amp; Niger left ECOWAS in Jan 2025 (free movement promised “until further notice”) and most governments advise <b>against travel</b> there. Prices are rough USD planning estimates, not quotes. Visa rules change — always verify with the destination’s embassy/official portal and your airline. Many Caribbean routings can require transit visas for Ghanaians.</div>
-    <div class="tabs" role="tablist" id="tabs"></div>
-  </div>
-</header>
-
-<main class="wrap">
-  <section class="panel" aria-label="Filters">
-    <div class="grid-f">
-      <label class="f">Search<input type="search" id="q" placeholder="Country, city, activity…"></label>
-      <label class="f">Best month to go
-        <select id="month"><option value="">Any month</option></select>
-      </label>
-      <label class="f">Max flight (return) <span class="val" id="flightVal"></span>
-        <input type="range" id="flight" min="100" max="3000" step="50" value="3000"></label>
-      <label class="f">Max trip total / person <span class="val" id="totalVal"></span>
-        <input type="range" id="total" min="300" max="8000" step="100" value="8000"></label>
-      <label class="f">Safety (max risk level) <span class="val" id="safeVal"></span>
-        <input type="range" id="safe" min="1" max="4" step="1" value="4"></label>
-      <label class="f">Nights <input type="number" id="nights" min="1" max="60" value="7"></label>
-    </div>
-    <div class="row">
-      <div>
-        <div class="chips" id="entryChips" style="margin-bottom:8px"></div>
-        <div class="chips" id="vibeChips"></div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
-        <div class="seg" id="styleSeg"><button data-v="0">Budget</button><button data-v="1" aria-pressed="true">Mid</button><button data-v="2">Comfort</button></div>
-        <div class="seg" id="staySeg"><button data-v="hotel" aria-pressed="true">Hotel</button><button data-v="airbnb">Airbnb</button></div>
-      </div>
-    </div>
-    <div class="row">
-      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
-        <label>Sort&nbsp;<select id="sort" style="width:auto">
-          <option value="name">Name A–Z</option><option value="flight">Cheapest flight</option><option value="total">Cheapest total</option>
-          <option value="safety">Safest first</option><option value="stay">Cheapest stay</option>
-        </select></label>
-        <div class="seg" id="viewSeg"><button data-v="cards" aria-pressed="true">Cards</button><button data-v="table">Table</button></div>
-        <label style="display:flex;gap:6px;align-items:center;font-size:13px"><input type="checkbox" id="showHidden"> Show hidden</label>
-      </div>
-      <div><span id="count" style="color:var(--muted);margin-right:10px"></span>
-        <button class="link" id="reset">Reset filters</button>
-        <button class="link" id="copyList">Copy shortlist</button></div>
-    </div>
+  <section class="summary-band" aria-label="Trip summary">
+    <div><span>Destinations shown</span><strong id="sCount">0</strong></div>
+    <div><span>Avg return flight</span><strong id="sFlight">$0</strong><small id="sFlightGhs">GHS 0</small></div>
+    <div><span id="sTripLbl">Avg 7-night trip</span><strong id="sTrip">$0</strong><small id="sTripGhs">GHS 0</small></div>
+    <div><span id="sFavLbl">Shortlist (0)</span><strong id="sFav">$0</strong><small id="sFavGhs">GHS 0</small></div>
+    <button id="copyList" type="button">Copy shortlist</button>
   </section>
 
-  <div id="out"></div>
+  <section class="toolbar" aria-label="Regions and view">
+    <button class="filter-button active" type="button" data-region="all">All</button>
+    <button class="filter-button" type="button" data-region="ecowas">ECOWAS</button>
+    <button class="filter-button" type="button" data-region="africa">Rest of Africa</button>
+    <button class="filter-button" type="button" data-region="caribbean">Caribbean</button>
+    <button class="filter-button" type="button" data-region="asia">Asia &amp; Pacific</button>
+    <button class="filter-button" type="button" data-region="fav">Shortlist</button>
+    <span class="toolbar-divider"></span>
+    <button class="filter-button active" type="button" data-view="list">List</button>
+    <button class="filter-button" type="button" data-view="grid">Grid view</button>
+    <button class="filter-button" type="button" data-view="table">Compare</button>
+  </section>
 
-  <div class="foot">
-    Sources &amp; method: passport rankings (Henley Passport Index, Passport Index, Ghana MFA), Citi Newsroom/Graphic Online coverage of 2026 rankings and the ECOWAS exit of Mali/Burkina/Niger, plus typical published tourism ranges. Figures are estimates for planning; individual TikTok/YouTube links are search links so they stay current.
-  </div>
+  <details class="filters" id="filters">
+    <summary>Filters</summary>
+    <div class="filter-grid">
+      <div class="field"><label for="q">Search</label><input id="q" type="search" placeholder="Country, city, activity"></div>
+      <div class="field"><label for="month">Best month to go</label>
+        <select id="month"><option value="">Any month</option></select></div>
+      <div class="field"><span>Max return flight <output id="flightOut"></output></span>
+        <input id="flight" type="range" min="100" max="3000" step="50" value="3000"></div>
+      <div class="field"><span>Max trip total <output id="totalOut"></output></span>
+        <input id="total" type="range" min="300" max="8000" step="100" value="8000"></div>
+      <div class="field"><span>Safety, up to <output id="safeOut"></output></span>
+        <input id="safe" type="range" min="1" max="4" step="1" value="4"></div>
+      <div class="field"><label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="region">Region</option><option value="name">Name A–Z</option><option value="flight">Cheapest flight</option>
+          <option value="total">Cheapest trip</option><option value="stay">Cheapest stay</option><option value="safety">Safest first</option>
+        </select></div>
+    </div>
+    <div class="chip-row" id="entryRow"><span class="lbl">Entry</span></div>
+    <div class="chip-row" id="styleRow"><span class="lbl">Budget</span>
+      <button class="filter-button" type="button" data-style="0">Budget</button>
+      <button class="filter-button active" type="button" data-style="1">Mid</button>
+      <button class="filter-button" type="button" data-style="2">Comfort</button>
+      <span class="lbl" style="margin-left:14px">Stay</span>
+      <button class="filter-button active" type="button" data-stay="hotel">Hotel</button>
+      <button class="filter-button" type="button" data-stay="airbnb">Airbnb</button>
+    </div>
+    <div class="chip-row" id="vibeRow"><span class="lbl">Vibe</span></div>
+    <div class="filters-foot">
+      <label style="display:flex;gap:8px;align-items:center;font-size:.88rem"><input type="checkbox" id="showHidden"> Show hidden places</label>
+      <button class="link-button" type="button" id="reset">Reset filters</button>
+    </div>
+  </details>
+
+  <section id="list" class="list" aria-live="polite"></section>
+
+  <p class="sources">Sources: Henley Passport Index and Passport Index rankings for Ghana (2026), coverage by <a href="https://citinewsroom.com/2026/01/ghana-misses-africas-top-10-most-powerful-passports-as-seychelles-leads-the-continent/">Citi Newsroom</a> and <a href="https://www.graphic.com.gh/news/general-news/ghana-passport-ranks-68th-in-worlds-most-power-passports-index-for-2026.html">Graphic Online</a>; <a href="https://nannews.ng/ecowas-says-mali-b-faso-niger-officially-exit-bloc-today/">ECOWAS exit of Mali, Burkina Faso and Niger</a>. Flight, hotel and daily-spend figures are planning estimates for return economy from Accra. Video links are live searches so they always show current results.</p>
 </main>
 
 <dialog id="dlg"></dialog>
 
 <script src="data.js"></script>
 <script>
-const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-const ENTRY={free:'Visa-free',voa:'Visa on arrival',eta:'eTA / online'};
-const VIBES=[...new Set(DESTINATIONS.flatMap(d=>d.vibes))].sort();
-const SAFETY_LABEL={1:'Low risk',2:'Moderate',3:'Elevated',4:'Avoid'};
-const $=s=>document.querySelector(s);
+(() => {
+  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const ENTRY = { free: 'Visa-free', voa: 'Visa on arrival', eta: 'eTA / online' };
+  const SAFE = { 1: 'Low risk', 2: 'Moderate', 3: 'Elevated', 4: 'Avoid' };
+  const VIBES = [...new Set(DESTINATIONS.flatMap(d => d.vibes))].sort();
+  const $ = s => document.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-/* ---------- state (persisted, defensively) ---------- */
-const store={get(k,f){try{const v=localStorage.getItem(k);return v?JSON.parse(v):f}catch(e){return f}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const S={
-  tab:'all',q:'',month:'',flight:3000,total:8000,safe:4,nights:7,style:1,stay:'hotel',
-  entry:new Set(),vibes:new Set(),sort:'name',view:'cards',showHidden:false,
-  fav:new Set(store.get('gpa.fav',[])),hid:new Set(store.get('gpa.hid',[]))
-};
-
-/* ---------- helpers ---------- */
-const stayCost=d=>S.stay==='airbnb'?Math.round(d.airbnb*[.6,1,1.8][S.style]):d.hotel[S.style];
-const total=d=>Math.round(d.flight[0]+(d.flight[1]-d.flight[0])*.4+S.nights*(stayCost(d)+d.daily[S.style]));
-const $$=(s,r=document)=>[...r.querySelectorAll(s)];
-const money=n=>'$'+n.toLocaleString();
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-
-/* ---------- build static controls ---------- */
-(function init(){
-  const tabs=[['all','All'],...Object.entries(REGIONS),['fav','★ Shortlist']];
-  $('#tabs').innerHTML=tabs.map(([k,l])=>`<button class="tab" role="tab" data-k="${k}" aria-selected="${k==='all'}">${l}<span class="n" data-n="${k}"></span></button>`).join('');
-  $('#month').insertAdjacentHTML('beforeend',MONTHS.map((m,i)=>`<option value="${i+1}">${m}</option>`).join(''));
-  $('#entryChips').innerHTML=Object.entries(ENTRY).map(([k,l])=>`<button class="chip" data-e="${k}" aria-pressed="false">${l}</button>`).join('');
-  $('#vibeChips').innerHTML=VIBES.map(v=>`<button class="chip" data-v="${v}" aria-pressed="false">${v}</button>`).join('');
-
-  $('#tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;S.tab=b.dataset.k;$$('.tab').forEach(t=>t.setAttribute('aria-selected',t===b));render()};
-  $('#entryChips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;toggle(S.entry,b.dataset.e,b);render()};
-  $('#vibeChips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;toggle(S.vibes,b.dataset.v,b);render()};
-  for(const [id,key,num] of [['q','q'],['month','month'],['flight','flight',1],['total','total',1],['safe','safe',1],['nights','nights',1],['sort','sort']])
-    $('#'+id).oninput=e=>{S[key]=num?+e.target.value:e.target.value;render()};
-  seg('#styleSeg','style',v=>+v);seg('#staySeg','stay',v=>v);seg('#viewSeg','view',v=>v);
-  $('#showHidden').onchange=e=>{S.showHidden=e.target.checked;render()};
-  $('#reset').onclick=()=>{Object.assign(S,{q:'',month:'',flight:3000,total:8000,safe:4});S.entry.clear();S.vibes.clear();
-    $('#q').value='';$('#month').value='';$('#flight').value=3000;$('#total').value=8000;$('#safe').value=4;
-    $$('.chip').forEach(c=>c.setAttribute('aria-pressed','false'));render()};
-  $('#copyList').onclick=async()=>{
-    const list=DESTINATIONS.filter(d=>S.fav.has(d.id)).map(d=>`${d.flag} ${d.name} — ${d.best}, flight ${money(d.flight[0])}–${money(d.flight[1])}, ~${money(total(d))} total`).join('\n')||'No shortlist yet.';
-    try{await navigator.clipboard.writeText(list);$('#copyList').textContent='Copied!'}catch(e){prompt('Copy your shortlist:',list)}
-    setTimeout(()=>$('#copyList').textContent='Copy shortlist',1500)};
-  $('#themeBtn').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark'};
-  document.addEventListener('click',e=>{ // delegated card/table/modal actions
-    const a=e.target.closest('[data-act]');if(!a)return;const id=a.dataset.id;
-    if(a.dataset.act==='fav'){S.fav.has(id)?S.fav.delete(id):S.fav.add(id);store.set('gpa.fav',[...S.fav]);render();refreshModalButtons(id)}
-    if(a.dataset.act==='hide'){S.hid.has(id)?S.hid.delete(id):S.hid.add(id);store.set('gpa.hid',[...S.hid]);render()}
-    if(a.dataset.act==='open')openModal(id);
-    if(a.dataset.act==='sort'){S.sort=a.dataset.k;$('#sort').value=a.dataset.k;render()}
-  });
-})();
-function toggle(set,v,btn){set.has(v)?set.delete(v):set.add(v);btn.setAttribute('aria-pressed',set.has(v))}
-function seg(sel,key,cast){const el=$(sel);el.onclick=e=>{const b=e.target.closest('button');if(!b)return;S[key]=cast(b.dataset.v);$$('button',el).forEach(x=>x.setAttribute('aria-pressed',x===b));render()}}
-
-/* ---------- filtering ---------- */
-function visible(){
-  const q=S.q.trim().toLowerCase();
-  return DESTINATIONS.filter(d=>{
-    if(S.tab==='fav'&&!S.fav.has(d.id))return false;
-    if(S.tab!=='all'&&S.tab!=='fav'&&d.region!==S.tab)return false;
-    if(!S.showHidden&&S.hid.has(d.id))return false;
-    if(q&&!JSON.stringify([d.name,d.spots,d.doThings,d.eat,d.cur,d.lang,d.vibes]).toLowerCase().includes(q))return false;
-    if(S.month&&!d.months.includes(+S.month))return false;
-    if(d.flight[0]>S.flight)return false;
-    if(S.safe<d.safety)return false;
-    if(total(d)>S.total)return false;
-    if(S.entry.size&&!S.entry.has(d.entry))return false;
-    if(S.vibes.size&&![...S.vibes].every(v=>d.vibes.includes(v)))return false;
-    return true;
-  }).sort((a,b)=>({
-    name:()=>a.name.localeCompare(b.name),flight:()=>a.flight[0]-b.flight[0],total:()=>total(a)-total(b),
-    safety:()=>a.safety-b.safety||a.name.localeCompare(b.name),stay:()=>stayCost(a)-stayCost(b)
-  }[S.sort]()));
-}
-
-/* ---------- render ---------- */
-function monthStrip(d){return `<div class="months" title="Best months in green">${MONTHS.map((m,i)=>`<i class="${d.months.includes(i+1)?'on':''}">${m[0]}</i>`).join('')}</div>`}
-function safetyEl(d){return `<div class="safety s${d.safety}"><span class="dots"><span></span><span></span><span></span><span></span></span>${SAFETY_LABEL[d.safety]}</div>`}
-function card(d){
-  const fav=S.fav.has(d.id),hid=S.hid.has(d.id);
-  return `<article class="card ${hid?'hidden-card':''}">
-    <div class="ch"><div><div class="reg">${REGIONS[d.region]}</div><h3>${esc(d.name)}</h3></div><div class="flag">${d.flag}</div></div>
-    <div><span class="badge b-${d.entry}">${ENTRY[d.entry]}</span> <span class="reg">· ${esc(d.stay)}</span></div>
-    <div class="facts">
-      <div class="fact"><small>Flight (return)</small><b>${money(d.flight[0])}–${money(d.flight[1])}</b></div>
-      <div class="fact"><small>Stay / night</small><b>${money(stayCost(d))}</b></div>
-      <div class="fact"><small>Daily spend</small><b>${money(d.daily[S.style])}</b></div>
-      <div class="fact"><small>${S.nights}-night total</small><b>≈ ${money(total(d))}</b></div>
-    </div>
-    ${monthStrip(d)}
-    <div class="reg"><b style="color:var(--ink)">Best:</b> ${esc(d.best)}</div>
-    ${safetyEl(d)}
-    <div class="vibes">${d.vibes.map(v=>`<span class="vibe">${v}</span>`).join('')}</div>
-    <div class="actions">
-      <button class="btn primary" data-act="open" data-id="${d.id}">Full guide</button>
-      <button class="btn ${fav?'on':''}" data-act="fav" data-id="${d.id}" title="Shortlist">${fav?'★':'☆'}</button>
-      <button class="btn" data-act="hide" data-id="${d.id}" title="${hid?'Unhide':'Hide'}">${hid?'Unhide':'Hide'}</button>
-    </div></article>`;
-}
-function table(list){
-  const th=(k,l)=>`<th data-act="sort" data-k="${k}">${l}</th>`;
-  return `<div class="tablewrap"><table><thead><tr>${th('name','Destination')}<th>Entry</th>${th('flight','Flight')}${th('stay','Stay/night')}<th>Daily</th>${th('total','Total')}<th>Best time</th>${th('safety','Safety')}<th></th></tr></thead><tbody>${
-    list.map(d=>`<tr><td class="name" data-act="open" data-id="${d.id}">${d.flag} ${esc(d.name)}</td><td><span class="badge b-${d.entry}">${ENTRY[d.entry]}</span></td>
-    <td>${money(d.flight[0])}–${money(d.flight[1])}</td><td>${money(stayCost(d))}</td><td>${money(d.daily[S.style])}</td><td><b>${money(total(d))}</b></td>
-    <td>${esc(d.best)}</td><td>${SAFETY_LABEL[d.safety]}</td>
-    <td><button class="btn" data-act="fav" data-id="${d.id}">${S.fav.has(d.id)?'★':'☆'}</button> <button class="btn" data-act="hide" data-id="${d.id}">${S.hid.has(d.id)?'Unhide':'Hide'}</button></td></tr>`).join('')
-  }</tbody></table></div>`;
-}
-function render(){
-  const list=visible();
-  $('#flightVal').textContent=S.flight>=3000?'any':money(S.flight);
-  $('#totalVal').textContent=S.total>=8000?'any':money(S.total);
-  $('#safeVal').textContent=SAFETY_LABEL[S.safe];
-  $('#count').textContent=`${list.length} of ${DESTINATIONS.length} shown`;
-  $('#out').innerHTML=!list.length?`<div class="empty"><h3>Nothing matches</h3><p>Loosen a filter or hit “Reset filters”.</p></div>`
-    :S.view==='table'?table(list):`<div class="cards">${list.map(card).join('')}</div>`;
-  const cnt={all:DESTINATIONS.length,fav:S.fav.size};for(const r in REGIONS)cnt[r]=DESTINATIONS.filter(d=>d.region===r).length;
-  $$('[data-n]').forEach(e=>e.textContent=cnt[e.dataset.n]);
-  const avg=a=>Math.round(a.reduce((s,x)=>s+x,0)/(a.length||1));
-  $('#stats').innerHTML=`<div class="stat"><b>${DESTINATIONS.length}</b><span>destinations</span></div>
-    <div class="stat"><b>${money(avg(list.map(d=>(d.flight[0]+d.flight[1])/2)))}</b><span>avg flight (shown)</span></div>
-    <div class="stat"><b>${money(avg(list.map(total)))}</b><span>avg ${S.nights}-night trip</span></div>
-    <div class="stat"><b>${S.fav.size}</b><span>shortlisted</span></div>`;
-}
-
-/* ---------- modal ---------- */
-const dlg=$('#dlg');let cur=null;
-const li=a=>`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
-const q=(d,s)=>encodeURIComponent(`${d.name} ${s}`);
-function panes(d){
-  const nights=S.nights,st=stayCost(d),dl=d.daily[S.style];
-  return {
-    Overview:`<div class="callout"><b>Entry:</b> ${ENTRY[d.entry]} · ${esc(d.stay)}<br>${esc(d.entryNote)}</div>
-      ${d.safety>=3?`<div class="callout warn"><b>${SAFETY_LABEL[d.safety]} risk:</b> ${esc(d.safetyNote)}</div>`:`<div class="callout"><b>Safety (${SAFETY_LABEL[d.safety]}):</b> ${esc(d.safetyNote)}</div>`}
-      <h4>Best time</h4><p>${esc(d.best)}</p>${monthStrip(d)}
-      <h4>Getting there from Accra</h4><p>${d.hours?`<b>${esc(d.hours)}</b><br>`:''}${esc(d.flightNote)}</p>
-      <h4>Quick facts</h4><p>Currency: ${esc(d.cur)} · Languages: ${esc(d.lang)}</p>
-      ${d.events?`<h4>Events &amp; festivals</h4><p>${esc(d.events)}</p>`:''}`,
-    Costs:`<table class="cost">
-      <tr><td>Return flight from Accra (economy)</td><td>${money(d.flight[0])}–${money(d.flight[1])}</td></tr>
-      <tr><td>Hotel / night — budget · mid · luxury</td><td>${money(d.hotel[0])} · ${money(d.hotel[1])} · ${money(d.hotel[2])}</td></tr>
-      <tr><td>Airbnb / night (mid-range)</td><td>~${money(d.airbnb)}</td></tr>
-      <tr><td>Daily food + transport + activities — budget · mid · comfort</td><td>${money(d.daily[0])} · ${money(d.daily[1])} · ${money(d.daily[2])}</td></tr>
-      <tr><td><b>Your estimate</b> (${nights} nights, ${['budget','mid','comfort'][S.style]}, ${S.stay})</td><td>≈ ${money(total(d))}</td></tr></table>
-      <p class="reg">Estimate = mid-point-ish flight + ${nights} × (${money(st)} stay + ${money(dl)} daily). Excludes visas, travel insurance, safari/permit fees and shopping.</p>`,
-    'Do & See':`<h4>Best spots</h4>${li(d.spots)}<h4>Best activities</h4>${li(d.doThings)}`,
-    Eat:`<h4>Must-try food</h4>${li(d.eat)}`,
-    Know:`<h4>Traveller tips</h4>${li(d.tips)}<h4>What’s not great / watch out for</h4>${li(d.avoid)}`,
-    Videos:`<p class="reg">Live TikTok &amp; YouTube searches (individual video links go stale, so these always show current results).</p><div class="vid-grid">
-      ${[['Travel guide','travel guide'],['Budget trip','budget trip cost'],['From Ghana / African traveller','Ghanaian African travel vlog'],['Best things to do','best things to do'],['Food tour','food tour']].map(([l,s])=>
-        `<a class="vid" target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${q(d,s)}"><b>🎵 ${l}</b><small>TikTok search</small></a>
-         <a class="vid" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q(d,s)}"><b>▶ ${l}</b><small>YouTube search</small></a>`).join('')}</div>
-      <p class="reg" style="margin-top:12px">Tip: also search the hashtag #${esc(d.name.replace(/[^a-z]/gi,'').toLowerCase())}travel on TikTok.</p>`
+  const store = {
+    get(k, f) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : f } catch (e) { return f } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) {} }
   };
-}
-function openModal(id){
-  const d=DESTINATIONS.find(x=>x.id===id);cur=d;const p=panes(d);
-  dlg.innerHTML=`<div class="mh"><div><div class="reg">${REGIONS[d.region]}</div><h2>${d.flag} ${esc(d.name)}</h2>
-      <span class="badge b-${d.entry}">${ENTRY[d.entry]}</span></div>
-      <div style="display:flex;gap:8px;align-items:flex-start"><button class="btn ${S.fav.has(id)?'on':''}" id="mfav" data-act="fav" data-id="${id}">${S.fav.has(id)?'★ Shortlisted':'☆ Shortlist'}</button><button class="btn" id="mclose">✕</button></div></div>
-    <div class="mtabs" role="tablist">${Object.keys(p).map((k,i)=>`<button class="mtab" role="tab" aria-selected="${i===0}" data-p="${k}">${k}</button>`).join('')}</div>
-    <div class="mbody" id="mbody">${Object.values(p)[0]}</div>`;
-  $('#mclose').onclick=()=>dlg.close();
-  $$('.mtab',dlg).forEach(b=>b.onclick=()=>{$$('.mtab',dlg).forEach(x=>x.setAttribute('aria-selected',x===b));$('#mbody').innerHTML=p[b.dataset.p]});
-  dlg.showModal();
-}
-function refreshModalButtons(id){const b=$('#mfav');if(b&&dlg.open&&cur&&cur.id===id){const on=S.fav.has(id);b.classList.toggle('on',on);b.textContent=on?'★ Shortlisted':'☆ Shortlist'}}
-dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+  const saved = store.get('atlas.v1', {});
+  const S = {
+    region: 'all', q: '', month: '', flight: 3000, total: 8000, safe: 4, sort: 'region', view: 'list',
+    style: 1, stay: 'hotel', nights: 7, usd: 11.46, showHidden: false,
+    entry: new Set(), vibes: new Set(),
+    fav: new Set(saved.fav || []), hid: new Set(saved.hid || [])
+  };
+  if (saved.usd > 0) S.usd = saved.usd;
+  if (saved.nights > 0) S.nights = saved.nights;
+  const persist = () => store.set('atlas.v1', { fav: [...S.fav], hid: [...S.hid], usd: S.usd, nights: S.nights });
 
-render();
+  const stay = d => S.stay === 'airbnb' ? Math.round(d.airbnb * [.6, 1, 1.8][S.style]) : d.hotel[S.style];
+  const trip = d => Math.round(d.flight[0] + (d.flight[1] - d.flight[0]) * .4 + S.nights * (stay(d) + d.daily[S.style]));
+  const usd = n => '$' + Math.round(n).toLocaleString('en-US');
+  const ghs = n => 'GHS ' + Math.round(n * S.usd).toLocaleString('en-US');
+  const avg = a => a.length ? a.reduce((s, x) => s + x, 0) / a.length : 0;
+
+  /* ---------- build static controls ---------- */
+  $('#month').insertAdjacentHTML('beforeend', MONTHS.map((m, i) => `<option value="${i + 1}">${m}</option>`).join(''));
+  $('#entryRow').insertAdjacentHTML('beforeend', Object.entries(ENTRY).map(([k, l]) => `<button class="filter-button" type="button" data-entry="${k}">${l}</button>`).join(''));
+  $('#vibeRow').insertAdjacentHTML('beforeend', VIBES.map(v => `<button class="filter-button" type="button" data-vibe="${v}">${v[0].toUpperCase() + v.slice(1)}</button>`).join(''));
+  $('#usdRate').value = S.usd; $('#nights').value = S.nights;
+  if (innerWidth > 780) $('#filters').open = true;
+
+  /* ---------- filtering ---------- */
+  function visible() {
+    const q = S.q.trim().toLowerCase();
+    const order = Object.keys(REGIONS);
+    return DESTINATIONS.filter(d => {
+      if (S.region === 'fav' ? !S.fav.has(d.id) : S.region !== 'all' && d.region !== S.region) return false;
+      if (!S.showHidden && S.hid.has(d.id)) return false;
+      if (q && !JSON.stringify([d.name, d.spots, d.doThings, d.eat, d.cur, d.lang, d.vibes]).toLowerCase().includes(q)) return false;
+      if (S.month && !d.months.includes(+S.month)) return false;
+      if (d.flight[0] > S.flight || d.safety > S.safe || trip(d) > S.total) return false;
+      if (S.entry.size && !S.entry.has(d.entry)) return false;
+      if (S.vibes.size && ![...S.vibes].every(v => d.vibes.includes(v))) return false;
+      return true;
+    }).sort((a, b) => ({
+      region: () => order.indexOf(a.region) - order.indexOf(b.region) || a.name.localeCompare(b.name),
+      name: () => a.name.localeCompare(b.name),
+      flight: () => a.flight[0] - b.flight[0],
+      total: () => trip(a) - trip(b),
+      stay: () => stay(a) - stay(b),
+      safety: () => a.safety - b.safety || a.name.localeCompare(b.name)
+    }[S.sort]()));
+  }
+
+  /* ---------- rendering ---------- */
+  const strip = d => `<div class="months" aria-label="Best months: ${esc(d.best)}">${MONTHS.map((m, i) => `<i class="${d.months.includes(i + 1) ? 'on' : ''}">${m[0]}</i>`).join('')}</div>`;
+
+  function itemHtml(d) {
+    const fav = S.fav.has(d.id), hid = S.hid.has(d.id);
+    return `<article class="item ${d.safety === 4 ? 'avoid' : ''} ${hid ? 'hidden-item' : ''}">
+      <a class="media" href="#" data-open="${d.id}" aria-label="Open ${esc(d.name)} guide"><span class="flag">${d.flag}</span><span class="size-badge">${ENTRY[d.entry]}</span></a>
+      <div class="item-main">
+        <div class="item-topline"><p class="brand">${REGIONS[d.region]}</p><p class="status">${SAFE[d.safety]}</p></div>
+        <h2><a href="#" data-open="${d.id}">${esc(d.name)}</a></h2>
+        <p class="url">${esc(d.stay)} · ${esc(d.cur)} · ${esc(d.lang)}</p>
+        <dl class="specs">
+          <div><dt>Best</dt><dd>${esc(d.best)}</dd></div>
+          <div><dt>Stay</dt><dd>${usd(stay(d))}/night</dd></div>
+          <div><dt>Daily</dt><dd>${usd(d.daily[S.style])}</dd></div>
+        </dl>
+        <p class="teaser">${esc(d.spots[0])}. ${esc(d.doThings[0])}.</p>
+        ${strip(d)}
+        <div class="item-actions">
+          <button class="rank-button ${fav ? 'active' : ''}" type="button" data-fav="${d.id}">${fav ? '★ Shortlisted' : '☆ Shortlist'}</button>
+          <button class="filter-button" type="button" data-open="${d.id}">Full guide</button>
+          <button class="filter-button hide-btn" type="button" data-hide="${d.id}">${hid ? 'Unhide' : 'Hide'}</button>
+        </div>
+      </div>
+      <div class="price-block">
+        <span class="status">Return flight</span>
+        <strong class="price-native">${usd(d.flight[0])}–${usd(d.flight[1])}</strong>
+        <small class="price-ghs">${ghs(d.flight[0])}–${Math.round(d.flight[1] * S.usd).toLocaleString('en-US')}</small>
+        <span class="trip"><b>${usd(trip(d))}</b> · ${S.nights} nights · ${ghs(trip(d))}</span>
+      </div>
+    </article>`;
+  }
+
+  function tableHtml(list) {
+    const rows = list.map((d, n) => `<tr class="${d.safety === 4 ? 'avoid' : ''}">
+      <td class="cell-num">${n + 1}</td>
+      <td class="cell-item"><span class="thumb">${d.flag}</span><span><button class="link-button" type="button" data-open="${d.id}"><b>${esc(d.name)}</b></button><br><small style="color:var(--muted)">${REGIONS[d.region]}</small></span></td>
+      <td>${ENTRY[d.entry]}</td>
+      <td class="cell-price">${usd(d.flight[0])}–${usd(d.flight[1])}</td>
+      <td class="cell-price">${usd(stay(d))}</td>
+      <td class="cell-price">${usd(d.daily[S.style])}</td>
+      <td class="cell-price">${usd(trip(d))}</td>
+      <td>${esc(d.best)}</td>
+      <td>${SAFE[d.safety]}</td>
+      <td><button class="rank-button ${S.fav.has(d.id) ? 'active' : ''}" type="button" data-fav="${d.id}">${S.fav.has(d.id) ? '★' : '☆'}</button></td></tr>`).join('');
+    return `<div class="table-wrap"><table class="compare-table" style="min-width:900px"><thead><tr><th>#</th><th>Destination</th><th>Entry</th><th>Flight (return)</th><th>Stay / night</th><th>Daily</th><th>${S.nights}-night trip</th><th>Best time</th><th>Safety</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+
+  function render() {
+    const list = visible();
+    $('#flightOut').textContent = S.flight >= 3000 ? 'any' : usd(S.flight);
+    $('#totalOut').textContent = S.total >= 8000 ? 'any' : usd(S.total);
+    $('#safeOut').textContent = SAFE[S.safe];
+    $$('[data-region]').forEach(b => b.classList.toggle('active', b.dataset.region === S.region));
+    $$('[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === S.view));
+    $$('[data-style]').forEach(b => b.classList.toggle('active', +b.dataset.style === S.style));
+    $$('[data-stay]').forEach(b => b.classList.toggle('active', b.dataset.stay === S.stay));
+    $$('[data-entry]').forEach(b => b.classList.toggle('active', S.entry.has(b.dataset.entry)));
+    $$('[data-vibe]').forEach(b => b.classList.toggle('active', S.vibes.has(b.dataset.vibe)));
+
+    const favs = DESTINATIONS.filter(d => S.fav.has(d.id));
+    $('#sCount').textContent = `${list.length} of ${DESTINATIONS.length}`;
+    $('#sFlight').textContent = usd(avg(list.map(d => (d.flight[0] + d.flight[1]) / 2)));
+    $('#sFlightGhs').textContent = ghs(avg(list.map(d => (d.flight[0] + d.flight[1]) / 2)));
+    $('#sTripLbl').textContent = `Avg ${S.nights}-night trip`;
+    $('#sTrip').textContent = usd(avg(list.map(trip)));
+    $('#sTripGhs').textContent = ghs(avg(list.map(trip)));
+    $('#sFavLbl').textContent = `Shortlist (${favs.length}) · total`;
+    $('#sFav').textContent = usd(favs.reduce((s, d) => s + trip(d), 0));
+    $('#sFavGhs').textContent = ghs(favs.reduce((s, d) => s + trip(d), 0));
+
+    const out = $('#list');
+    out.className = 'list' + (S.view === 'grid' ? ' grid-view' : '');
+    if (!list.length) {
+      out.innerHTML = `<div class="empty">${S.region === 'fav' ? 'Nothing shortlisted yet. Tap ☆ Shortlist on any destination.' : 'No destinations match these filters. Loosen one or reset them.'}</div>`;
+      return;
+    }
+    if (S.view === 'table') { out.className = 'list'; out.innerHTML = tableHtml(list); return; }
+    let html = '', last = '';
+    for (const d of list) {
+      if (S.sort === 'region' && d.region !== last) {
+        last = d.region;
+        html += `<div class="section-header">${REGIONS[d.region]} · ${list.filter(x => x.region === d.region).length}</div>`;
+      }
+      html += itemHtml(d);
+    }
+    out.innerHTML = html;
+  }
+
+  /* ---------- dialog ---------- */
+  const dlg = $('#dlg');
+  const li = a => `<ul>${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  const sq = (d, s) => encodeURIComponent(`${d.name} ${s}`);
+  function panes(d) {
+    const st = stay(d), dl = d.daily[S.style];
+    const tt = [['Travel guide', 'travel guide'], ['Budget trip', 'budget trip cost'], ['African / Ghanaian traveller', 'Ghanaian African travel vlog'], ['Best things to do', 'best things to do'], ['Food tour', 'food tour']];
+    return {
+      Overview: `<div class="callout"><b>Entry:</b> ${ENTRY[d.entry]} · ${esc(d.stay)}<br>${esc(d.entryNote)}</div>
+        <div class="callout ${d.safety >= 3 ? 'warn' : ''}"><b>Safety (${SAFE[d.safety]}):</b> ${esc(d.safetyNote)}</div>
+        <h4>Best time</h4><p>${esc(d.best)}</p>${strip(d)}
+        <h4>Getting there from Accra</h4><p>${d.hours ? `<b>${esc(d.hours)}</b><br>` : ''}${esc(d.flightNote)}</p>
+        <h4>Quick facts</h4><p>Currency: ${esc(d.cur)}<br>Languages: ${esc(d.lang)}</p>
+        ${d.events ? `<h4>Events and festivals</h4><p>${esc(d.events)}</p>` : ''}`,
+      Costs: `<table class="cost">
+        <tr><td>Return flight from Accra, economy</td><td>${usd(d.flight[0])}–${usd(d.flight[1])}<br><small style="color:var(--muted);font-weight:400">${ghs(d.flight[0])}–${Math.round(d.flight[1] * S.usd).toLocaleString('en-US')}</small></td></tr>
+        <tr><td>Hotel per night: budget · mid · luxury</td><td>${usd(d.hotel[0])} · ${usd(d.hotel[1])} · ${usd(d.hotel[2])}</td></tr>
+        <tr><td>Airbnb per night, mid-range</td><td>~${usd(d.airbnb)}</td></tr>
+        <tr><td>Daily food, transport and activities: budget · mid · comfort</td><td>${usd(d.daily[0])} · ${usd(d.daily[1])} · ${usd(d.daily[2])}</td></tr>
+        <tr><td><b>Your estimate</b><br><small style="color:var(--muted)">${S.nights} nights · ${['budget', 'mid', 'comfort'][S.style]} · ${S.stay}</small></td><td>${usd(trip(d))}<br><small style="color:var(--muted);font-weight:400">${ghs(trip(d))}</small></td></tr></table>
+        <p style="margin-top:12px;color:var(--muted);font-size:.85rem">Flight at about the 40% point of the range, plus ${S.nights} × (${usd(st)} stay + ${usd(dl)} daily). Excludes visas, insurance, safari and permit fees, shopping.</p>`,
+      'Do and see': `<h4>Best spots</h4>${li(d.spots)}<h4>Best activities</h4>${li(d.doThings)}`,
+      Eat: `<h4>Must-try food</h4>${li(d.eat)}`,
+      Know: `<h4>Traveller tips</h4>${li(d.tips)}<h4>What is not great</h4>${li(d.avoid)}`,
+      Videos: `<p style="color:var(--muted)">Live TikTok and YouTube searches, so results stay current.</p><div class="vid-grid">${tt.map(([l, s]) =>
+        `<a class="vid" target="_blank" rel="noreferrer" href="https://www.tiktok.com/search?q=${sq(d, s)}"><b>${l}</b><small>TikTok search</small></a>
+         <a class="vid" target="_blank" rel="noreferrer" href="https://www.youtube.com/results?search_query=${sq(d, s)}"><b>${l}</b><small>YouTube search</small></a>`).join('')}</div>`
+    };
+  }
+  function openGuide(id) {
+    const d = DESTINATIONS.find(x => x.id === id), p = panes(d), fav = S.fav.has(id);
+    dlg.innerHTML = `<div class="dlg-head"><div><p class="eyebrow" style="margin:0">${REGIONS[d.region]} · ${ENTRY[d.entry]}</p><h2>${d.flag} ${esc(d.name)}</h2></div>
+        <div style="display:flex;gap:8px"><button class="rank-button ${fav ? 'active' : ''}" type="button" data-fav="${id}" id="dFav">${fav ? '★ Shortlisted' : '☆ Shortlist'}</button><button class="filter-button" type="button" id="dClose">Close</button></div></div>
+      <div class="dlg-tabs">${Object.keys(p).map((k, i) => `<button class="filter-button ${i ? '' : 'active'}" type="button" data-pane="${k}">${k}</button>`).join('')}</div>
+      <div class="dlg-body" id="dBody">${Object.values(p)[0]}</div>`;
+    $('#dClose').onclick = () => dlg.close();
+    $$('[data-pane]', dlg).forEach(b => b.onclick = () => { $$('[data-pane]', dlg).forEach(x => x.classList.toggle('active', x === b)); $('#dBody').innerHTML = p[b.dataset.pane]; });
+    dlg.showModal();
+  }
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+
+  /* ---------- events ---------- */
+  const toggle = (set, v) => set.has(v) ? set.delete(v) : set.add(v);
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-region],[data-view],[data-style],[data-stay],[data-entry],[data-vibe],[data-fav],[data-hide],[data-open]');
+    if (!t) return;
+    const ds = t.dataset;
+    if (ds.open) { e.preventDefault(); return openGuide(ds.open); }
+    if (ds.fav) { toggle(S.fav, ds.fav); persist(); render(); if (dlg.open) { const f = S.fav.has(ds.fav), b = $('#dFav'); if (b) { b.classList.toggle('active', f); b.textContent = f ? '★ Shortlisted' : '☆ Shortlist'; } } return; }
+    if (ds.hide) { toggle(S.hid, ds.hide); persist(); return render(); }
+    if (ds.region) S.region = ds.region;
+    if (ds.view) S.view = ds.view;
+    if (ds.style) S.style = +ds.style;
+    if (ds.stay) S.stay = ds.stay;
+    if (ds.entry) toggle(S.entry, ds.entry);
+    if (ds.vibe) toggle(S.vibes, ds.vibe);
+    render();
+  });
+  for (const [id, key, num] of [['q', 'q'], ['month', 'month'], ['flight', 'flight', 1], ['total', 'total', 1], ['safe', 'safe', 1], ['sort', 'sort']])
+    $('#' + id).addEventListener('input', e => { S[key] = num ? +e.target.value : e.target.value; render(); });
+  $('#usdRate').addEventListener('input', e => { const v = parseFloat(e.target.value); if (v > 0) { S.usd = v; persist(); render(); } });
+  $('#nights').addEventListener('input', e => { const v = parseInt(e.target.value, 10); if (v > 0) { S.nights = v; persist(); render(); } });
+  $('#showHidden').addEventListener('change', e => { S.showHidden = e.target.checked; render(); });
+  $('#reset').addEventListener('click', () => {
+    Object.assign(S, { q: '', month: '', flight: 3000, total: 8000, safe: 4 }); S.entry.clear(); S.vibes.clear();
+    $('#q').value = ''; $('#month').value = ''; $('#flight').value = 3000; $('#total').value = 8000; $('#safe').value = 4; render();
+  });
+  $('#copyList').addEventListener('click', async () => {
+    const text = DESTINATIONS.filter(d => S.fav.has(d.id)).map(d => `${d.flag} ${d.name}: ${d.best}, flight ${usd(d.flight[0])}–${usd(d.flight[1])}, about ${usd(trip(d))} for ${S.nights} nights (${ghs(trip(d))})`).join('\n') || 'No shortlist yet.';
+    const b = $('#copyList');
+    try { await navigator.clipboard.writeText(text); b.textContent = 'Copied'; }
+    catch (err) { window.prompt('Copy your shortlist:', text); }
+    setTimeout(() => b.textContent = 'Copy shortlist', 1500);
+  });
+
+  render();
+})();
 </script>
 </body>
 </html>
