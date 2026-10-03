@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#faf8f4">
+<title>Nana's Online Haul Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-shell">
+  <header class="page-header">
+    <p class="eyebrow">Nana's Online haul planner</p>
+    <div class="title-row">
+      <h1>Shopping List</h1>
+      <div class="rates">
+        <div class="rate-control"><label for="gbp">GBP → GHS</label><input id="gbp" type="number" inputmode="decimal" step="0.01" min="0"></div>
+        <div class="rate-control"><label for="usd">USD → GHS</label><input id="usd" type="number" inputmode="decimal" step="0.01" min="0"></div>
+      </div>
+    </div>
+    <p class="intro">SUMWON, Playboy × SUMWON and BoohooMAN picks for Nana and Kojo, totalled in dollars and cedis. Add the Shein price on any SUMWON item to see which side is cheaper.</p>
+    <span class="rate-note" style="text-align:left">Exchange rates are editable — type today's rate.</span>
+  </header>
+
+  <section class="summary-band" aria-label="Totals">
+    <div><span>Total items</span><strong id="tItems">0</strong></div>
+    <div><span>Nana</span><strong id="tNana"></strong></div>
+    <div><span>Kojo</span><strong id="tKojo"></strong></div>
+    <div><span>Grand total</span><strong id="tAll"></strong></div>
+    <button id="share" class="share-btn">Copy share link</button>
+  </section>
+
+  <nav class="toolbar" aria-label="Filters">
+    <button class="filter-button active" data-f="all">All</button>
+    <button class="filter-button" data-f="top">Top 5</button>
+    <button class="filter-button" data-f="needs">Needs price</button>
+    <span class="toolbar-divider"></span>
+    <button class="filter-button" data-o="nana">Nana</button>
+    <button class="filter-button" data-o="kojo">Kojo</button>
+    <button class="filter-button" data-v="grid">Grid view</button>
+    <button class="filter-button" data-v="compare">SUMWON vs Shein</button>
+  </nav>
+
+  <main id="out"></main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
