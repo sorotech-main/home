@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ghana Passport Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf7f2; --surface:#ffffff; --surface2:#f3eee6; --ink:#1d1a16; --muted:#6b645a; --line:#e5ddd0;
+  --accent:#c8501e; --accent-ink:#ffffff; --gold:#d9a21b; --green:#2f7d4f; --blue:#2c6fbb; --red:#c0392b;
+  --shadow:0 1px 2px rgba(40,25,10,.06),0 8px 24px rgba(40,25,10,.06);
+  --r:16px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#14110e; --surface:#1d1915; --surface2:#26211b; --ink:#f2ece3; --muted:#a39a8d; --line:#332d25;
+    --accent:#ee7a45; --accent-ink:#1a0d05; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14110e; --surface:#1d1915; --surface2:#26211b; --ink:#f2ece3; --muted:#a39a8d; --line:#332d25;
+  --accent:#ee7a45; --accent-ink:#1a0d05; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Plus Jakarta Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;margin:0;letter-spacing:-.01em}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* header */
+header.hero{padding:40px 0 20px;border-bottom:1px solid var(--line);
+  background:radial-gradient(900px 300px at 85% -20%,color-mix(in srgb,var(--accent) 22%,transparent),transparent),var(--bg)}
+.hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:6px 0 10px}
+.sub{color:var(--muted);max-width:640px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 14px}
+.stat b{font-family:Fraunces,serif;font-size:20px;display:block;line-height:1.1}
+.stat span{font-size:12px;color:var(--muted)}
+.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 12px;cursor:pointer}
+
+/* alert banner */
+.banner{background:color-mix(in srgb,var(--gold) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--gold) 45%,var(--line));border-radius:12px;padding:12px 14px;margin:18px 0 0;font-size:13.5px}
+.banner b{color:var(--ink)}
+
+/* tabs */
+.tabs{display:flex;gap:4px;overflow-x:auto;padding:14px 0 0;scrollbar-width:none}
+.tab{white-space:nowrap;border:1px solid transparent;background:none;padding:9px 16px;border-radius:999px;cursor:pointer;color:var(--muted);font-weight:600}
+.tab:hover{background:var(--surface2)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.tab .n{opacity:.6;font-weight:500;margin-left:4px;font-size:12px}
+
+/* filters */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:18px 0;box-shadow:var(--shadow)}
+.grid-f{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 18px;align-items:end}
+label.f{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+label.f .val{color:var(--ink);text-transform:none;letter-spacing:0;font-weight:600}
+input[type=search],input[type=number],select{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:13px;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:14px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:var(--bg);padding:7px 14px;cursor:pointer;font-weight:600;font-size:13px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.link{background:none;border:0;color:var(--accent);cursor:pointer;font-weight:600;padding:4px}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:60px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow);transition:transform .15s}
+.card:hover{transform:translateY(-2px)}
+.card.hidden-card{opacity:.45}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.ch h3{font-size:21px;line-height:1.15}
+.flag{font-size:30px;line-height:1}
+.reg{font-size:12px;color:var(--muted)}
+.badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700}
+.b-free{background:color-mix(in srgb,var(--green) 18%,transparent);color:var(--green)}
+.b-voa{background:color-mix(in srgb,var(--blue) 18%,transparent);color:var(--blue)}
+.b-eta{background:color-mix(in srgb,var(--gold) 25%,transparent);color:#8a6200}
+:root[data-theme="dark"] .b-eta{color:var(--gold)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .b-eta{color:var(--gold)}}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.fact{background:var(--surface2);border-radius:10px;padding:8px 10px}
+.fact small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.fact b{font-size:15px}
+.months{display:grid;grid-template-columns:repeat(12,1fr);gap:3px}
+.months i{font-style:normal;font-size:10px;text-align:center;border-radius:4px;padding:2px 0;background:var(--surface2);color:var(--muted)}
+.months i.on{background:var(--green);color:#fff;font-weight:700}
+.safety{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.dots{display:inline-flex;gap:3px}.dots span{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.s1 .dots span:nth-child(-n+1){background:var(--green)}
+.s2 .dots span:nth-child(-n+2){background:var(--gold)}
+.s3 .dots span:nth-child(-n+3){background:#e07a1f}
+.s4 .dots span:nth-child(-n+4){background:var(--red)}
+.vibes{display:flex;flex-wrap:wrap;gap:5px}
+.vibe{font-size:12px;background:var(--surface2);border-radius:6px;padding:2px 8px;color:var(--muted)}
+.actions{display:flex;gap:8px;margin-top:auto}
+.btn{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 12px;cursor:pointer;font-weight:600;font-size:13px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);flex:1}
+.btn.on{background:var(--gold);border-color:var(--gold);color:#2a1d00}
+.empty{padding:60px 0;text-align:center;color:var(--muted)}
+
+/* table */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);margin-bottom:60px}
+table{border-collapse:collapse;width:100%;min-width:860px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);cursor:pointer;background:var(--surface2);position:sticky;top:0}
+tr:hover td{background:var(--surface2)}
+td.name{font-weight:700;cursor:pointer}
+
+/* modal */
+dialog{border:0;border-radius:20px;padding:0;max-width:760px;width:calc(100% - 24px);background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.4);max-height:92vh}
+dialog::backdrop{background:rgba(10,6,2,.55);backdrop-filter:blur(3px)}
+.mh{padding:20px 22px 0;display:flex;justify-content:space-between;gap:12px}
+.mh h2{font-size:28px}
+.mtabs{display:flex;gap:2px;overflow-x:auto;padding:12px 16px 0;border-bottom:1px solid var(--line)}
+.mtab{background:none;border:0;padding:10px 12px;cursor:pointer;color:var(--muted);font-weight:600;border-bottom:2px solid transparent;white-space:nowrap}
+.mtab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.mbody{padding:18px 22px 24px;overflow-y:auto;max-height:62vh}
+.mbody h4{margin:18px 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.mbody h4:first-child{margin-top:0}
+.mbody ul{margin:0;padding-left:20px}.mbody li{margin:4px 0}
+.callout{border-radius:12px;padding:12px 14px;background:var(--surface2);margin:10px 0}
+.callout.warn{background:color-mix(in srgb,var(--red) 12%,var(--surface));border:1px solid color-mix(in srgb,var(--red) 35%,var(--line))}
+.cost{width:100%;border-collapse:collapse}
+.cost td,.cost th{padding:8px 6px;border-bottom:1px solid var(--line);white-space:normal;position:static;background:none;cursor:default;text-transform:none;letter-spacing:0;font-size:14px;color:var(--ink)}
+.cost tr:hover td{background:none}
+.cost td:last-child{text-align:right;font-weight:700}
+.vid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.vid{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--bg)}
+.vid:hover{border-color:var(--accent)}
+.vid b{display:block}.vid small{color:var(--muted)}
+.foot{font-size:12px;color:var(--muted);padding:30px 0 60px;border-top:1px solid var(--line)}
+@media(max-width:560px){.hero-top{flex-direction:column}.mh h2{font-size:23px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div>
+        <div class="eyebrow">🇬🇭 Ordinary Ghanaian passport</div>
+        <h1>The Ghana Passport Atlas</h1>
+        <p class="sub">Every visa-free, visa-on-arrival and eTA destination on your list — with flights from Accra, best months, hotel &amp; Airbnb costs, safety, things to do, and TikTok/YouTube search links. Filter, shortlist and hide as you plan.</p>
+        <div class="stats" id="stats"></div>
+      </div>
+      <button class="icon-btn" id="themeBtn" title="Toggle theme">🌓 Theme</button>
+    </div>
+    <div class="banner"><b>Read first:</b> Mali, Burkina Faso &amp; Niger left ECOWAS in Jan 2025 (free movement promised “until further notice”) and most governments advise <b>against travel</b> there. Prices are rough USD planning estimates, not quotes. Visa rules change — always verify with the destination’s embassy/official portal and your airline. Many Caribbean routings can require transit visas for Ghanaians.</div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel" aria-label="Filters">
+    <div class="grid-f">
+      <label class="f">Search<input type="search" id="q" placeholder="Country, city, activity…"></label>
+      <label class="f">Best month to go
+        <select id="month"><option value="">Any month</option></select>
+      </label>
+      <label class="f">Max flight (return) <span class="val" id="flightVal"></span>
+        <input type="range" id="flight" min="100" max="3000" step="50" value="3000"></label>
+      <label class="f">Max trip total / person <span class="val" id="totalVal"></span>
+        <input type="range" id="total" min="300" max="8000" step="100" value="8000"></label>
+      <label class="f">Safety (max risk level) <span class="val" id="safeVal"></span>
+        <input type="range" id="safe" min="1" max="4" step="1" value="4"></label>
+      <label class="f">Nights <input type="number" id="nights" min="1" max="60" value="7"></label>
+    </div>
+    <div class="row">
+      <div>
+        <div class="chips" id="entryChips" style="margin-bottom:8px"></div>
+        <div class="chips" id="vibeChips"></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+        <div class="seg" id="styleSeg"><button data-v="0">Budget</button><button data-v="1" aria-pressed="true">Mid</button><button data-v="2">Comfort</button></div>
+        <div class="seg" id="staySeg"><button data-v="hotel" aria-pressed="true">Hotel</button><button data-v="airbnb">Airbnb</button></div>
+      </div>
+    </div>
+    <div class="row">
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <label>Sort&nbsp;<select id="sort" style="width:auto">
+          <option value="name">Name A–Z</option><option value="flight">Cheapest flight</option><option value="total">Cheapest total</option>
+          <option value="safety">Safest first</option><option value="stay">Cheapest stay</option>
+        </select></label>
+        <div class="seg" id="viewSeg"><button data-v="cards" aria-pressed="true">Cards</button><button data-v="table">Table</button></div>
+        <label style="display:flex;gap:6px;align-items:center;font-size:13px"><input type="checkbox" id="showHidden"> Show hidden</label>
+      </div>
+      <div><span id="count" style="color:var(--muted);margin-right:10px"></span>
+        <button class="link" id="reset">Reset filters</button>
+        <button class="link" id="copyList">Copy shortlist</button></div>
+    </div>
+  </section>
+
+  <div id="out"></div>
+
+  <div class="foot">
+    Sources &amp; method: passport rankings (Henley Passport Index, Passport Index, Ghana MFA), Citi Newsroom/Graphic Online coverage of 2026 rankings and the ECOWAS exit of Mali/Burkina/Niger, plus typical published tourism ranges. Figures are estimates for planning; individual TikTok/YouTube links are search links so they stay current.
+  </div>
+</main>
+
+<dialog id="dlg"></dialog>
+
+<script src="data.js"></script>
+<script>
+const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const ENTRY={free:'Visa-free',voa:'Visa on arrival',eta:'eTA / online'};
+const VIBES=[...new Set(DESTINATIONS.flatMap(d=>d.vibes))].sort();
+const SAFETY_LABEL={1:'Low risk',2:'Moderate',3:'Elevated',4:'Avoid'};
+const $=s=>document.querySelector(s);
+
+/* ---------- state (persisted, defensively) ---------- */
+const store={get(k,f){try{const v=localStorage.getItem(k);return v?JSON.parse(v):f}catch(e){return f}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const S={
+  tab:'all',q:'',month:'',flight:3000,total:8000,safe:4,nights:7,style:1,stay:'hotel',
+  entry:new Set(),vibes:new Set(),sort:'name',view:'cards',showHidden:false,
+  fav:new Set(store.get('gpa.fav',[])),hid:new Set(store.get('gpa.hid',[]))
+};
+
+/* ---------- helpers ---------- */
+const stayCost=d=>S.stay==='airbnb'?Math.round(d.airbnb*[.6,1,1.8][S.style]):d.hotel[S.style];
+const total=d=>Math.round(d.flight[0]+(d.flight[1]-d.flight[0])*.4+S.nights*(stayCost(d)+d.daily[S.style]));
+const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const money=n=>'$'+n.toLocaleString();
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ---------- build static controls ---------- */
+(function init(){
+  const tabs=[['all','All'],...Object.entries(REGIONS),['fav','★ Shortlist']];
+  $('#tabs').innerHTML=tabs.map(([k,l])=>`<button class="tab" role="tab" data-k="${k}" aria-selected="${k==='all'}">${l}<span class="n" data-n="${k}"></span></button>`).join('');
+  $('#month').insertAdjacentHTML('beforeend',MONTHS.map((m,i)=>`<option value="${i+1}">${m}</option>`).join(''));
+  $('#entryChips').innerHTML=Object.entries(ENTRY).map(([k,l])=>`<button class="chip" data-e="${k}" aria-pressed="false">${l}</button>`).join('');
+  $('#vibeChips').innerHTML=VIBES.map(v=>`<button class="chip" data-v="${v}" aria-pressed="false">${v}</button>`).join('');
+
+  $('#tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;S.tab=b.dataset.k;$$('.tab').forEach(t=>t.setAttribute('aria-selected',t===b));render()};
+  $('#entryChips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;toggle(S.entry,b.dataset.e,b);render()};
+  $('#vibeChips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;toggle(S.vibes,b.dataset.v,b);render()};
+  for(const [id,key,num] of [['q','q'],['month','month'],['flight','flight',1],['total','total',1],['safe','safe',1],['nights','nights',1],['sort','sort']])
+    $('#'+id).oninput=e=>{S[key]=num?+e.target.value:e.target.value;render()};
+  seg('#styleSeg','style',v=>+v);seg('#staySeg','stay',v=>v);seg('#viewSeg','view',v=>v);
+  $('#showHidden').onchange=e=>{S.showHidden=e.target.checked;render()};
+  $('#reset').onclick=()=>{Object.assign(S,{q:'',month:'',flight:3000,total:8000,safe:4});S.entry.clear();S.vibes.clear();
+    $('#q').value='';$('#month').value='';$('#flight').value=3000;$('#total').value=8000;$('#safe').value=4;
+    $$('.chip').forEach(c=>c.setAttribute('aria-pressed','false'));render()};
+  $('#copyList').onclick=async()=>{
+    const list=DESTINATIONS.filter(d=>S.fav.has(d.id)).map(d=>`${d.flag} ${d.name} — ${d.best}, flight ${money(d.flight[0])}–${money(d.flight[1])}, ~${money(total(d))} total`).join('\n')||'No shortlist yet.';
+    try{await navigator.clipboard.writeText(list);$('#copyList').textContent='Copied!'}catch(e){prompt('Copy your shortlist:',list)}
+    setTimeout(()=>$('#copyList').textContent='Copy shortlist',1500)};
+  $('#themeBtn').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=dark?'light':'dark'};
+  document.addEventListener('click',e=>{ // delegated card/table/modal actions
+    const a=e.target.closest('[data-act]');if(!a)return;const id=a.dataset.id;
+    if(a.dataset.act==='fav'){S.fav.has(id)?S.fav.delete(id):S.fav.add(id);store.set('gpa.fav',[...S.fav]);render();refreshModalButtons(id)}
+    if(a.dataset.act==='hide'){S.hid.has(id)?S.hid.delete(id):S.hid.add(id);store.set('gpa.hid',[...S.hid]);render()}
+    if(a.dataset.act==='open')openModal(id);
+    if(a.dataset.act==='sort'){S.sort=a.dataset.k;$('#sort').value=a.dataset.k;render()}
+  });
+})();
+function toggle(set,v,btn){set.has(v)?set.delete(v):set.add(v);btn.setAttribute('aria-pressed',set.has(v))}
+function seg(sel,key,cast){const el=$(sel);el.onclick=e=>{const b=e.target.closest('button');if(!b)return;S[key]=cast(b.dataset.v);$$('button',el).forEach(x=>x.setAttribute('aria-pressed',x===b));render()}}
+
+/* ---------- filtering ---------- */
+function visible(){
+  const q=S.q.trim().toLowerCase();
+  return DESTINATIONS.filter(d=>{
+    if(S.tab==='fav'&&!S.fav.has(d.id))return false;
+    if(S.tab!=='all'&&S.tab!=='fav'&&d.region!==S.tab)return false;
+    if(!S.showHidden&&S.hid.has(d.id))return false;
+    if(q&&!JSON.stringify([d.name,d.spots,d.doThings,d.eat,d.cur,d.lang,d.vibes]).toLowerCase().includes(q))return false;
+    if(S.month&&!d.months.includes(+S.month))return false;
+    if(d.flight[0]>S.flight)return false;
+    if(S.safe<d.safety)return false;
+    if(total(d)>S.total)return false;
+    if(S.entry.size&&!S.entry.has(d.entry))return false;
+    if(S.vibes.size&&![...S.vibes].every(v=>d.vibes.includes(v)))return false;
+    return true;
+  }).sort((a,b)=>({
+    name:()=>a.name.localeCompare(b.name),flight:()=>a.flight[0]-b.flight[0],total:()=>total(a)-total(b),
+    safety:()=>a.safety-b.safety||a.name.localeCompare(b.name),stay:()=>stayCost(a)-stayCost(b)
+  }[S.sort]()));
+}
+
+/* ---------- render ---------- */
+function monthStrip(d){return `<div class="months" title="Best months in green">${MONTHS.map((m,i)=>`<i class="${d.months.includes(i+1)?'on':''}">${m[0]}</i>`).join('')}</div>`}
+function safetyEl(d){return `<div class="safety s${d.safety}"><span class="dots"><span></span><span></span><span></span><span></span></span>${SAFETY_LABEL[d.safety]}</div>`}
+function card(d){
+  const fav=S.fav.has(d.id),hid=S.hid.has(d.id);
+  return `<article class="card ${hid?'hidden-card':''}">
+    <div class="ch"><div><div class="reg">${REGIONS[d.region]}</div><h3>${esc(d.name)}</h3></div><div class="flag">${d.flag}</div></div>
+    <div><span class="badge b-${d.entry}">${ENTRY[d.entry]}</span> <span class="reg">· ${esc(d.stay)}</span></div>
+    <div class="facts">
+      <div class="fact"><small>Flight (return)</small><b>${money(d.flight[0])}–${money(d.flight[1])}</b></div>
+      <div class="fact"><small>Stay / night</small><b>${money(stayCost(d))}</b></div>
+      <div class="fact"><small>Daily spend</small><b>${money(d.daily[S.style])}</b></div>
+      <div class="fact"><small>${S.nights}-night total</small><b>≈ ${money(total(d))}</b></div>
+    </div>
+    ${monthStrip(d)}
+    <div class="reg"><b style="color:var(--ink)">Best:</b> ${esc(d.best)}</div>
+    ${safetyEl(d)}
+    <div class="vibes">${d.vibes.map(v=>`<span class="vibe">${v}</span>`).join('')}</div>
+    <div class="actions">
+      <button class="btn primary" data-act="open" data-id="${d.id}">Full guide</button>
+      <button class="btn ${fav?'on':''}" data-act="fav" data-id="${d.id}" title="Shortlist">${fav?'★':'☆'}</button>
+      <button class="btn" data-act="hide" data-id="${d.id}" title="${hid?'Unhide':'Hide'}">${hid?'Unhide':'Hide'}</button>
+    </div></article>`;
+}
+function table(list){
+  const th=(k,l)=>`<th data-act="sort" data-k="${k}">${l}</th>`;
+  return `<div class="tablewrap"><table><thead><tr>${th('name','Destination')}<th>Entry</th>${th('flight','Flight')}${th('stay','Stay/night')}<th>Daily</th>${th('total','Total')}<th>Best time</th>${th('safety','Safety')}<th></th></tr></thead><tbody>${
+    list.map(d=>`<tr><td class="name" data-act="open" data-id="${d.id}">${d.flag} ${esc(d.name)}</td><td><span class="badge b-${d.entry}">${ENTRY[d.entry]}</span></td>
+    <td>${money(d.flight[0])}–${money(d.flight[1])}</td><td>${money(stayCost(d))}</td><td>${money(d.daily[S.style])}</td><td><b>${money(total(d))}</b></td>
+    <td>${esc(d.best)}</td><td>${SAFETY_LABEL[d.safety]}</td>
+    <td><button class="btn" data-act="fav" data-id="${d.id}">${S.fav.has(d.id)?'★':'☆'}</button> <button class="btn" data-act="hide" data-id="${d.id}">${S.hid.has(d.id)?'Unhide':'Hide'}</button></td></tr>`).join('')
+  }</tbody></table></div>`;
+}
+function render(){
+  const list=visible();
+  $('#flightVal').textContent=S.flight>=3000?'any':money(S.flight);
+  $('#totalVal').textContent=S.total>=8000?'any':money(S.total);
+  $('#safeVal').textContent=SAFETY_LABEL[S.safe];
+  $('#count').textContent=`${list.length} of ${DESTINATIONS.length} shown`;
+  $('#out').innerHTML=!list.length?`<div class="empty"><h3>Nothing matches</h3><p>Loosen a filter or hit “Reset filters”.</p></div>`
+    :S.view==='table'?table(list):`<div class="cards">${list.map(card).join('')}</div>`;
+  const cnt={all:DESTINATIONS.length,fav:S.fav.size};for(const r in REGIONS)cnt[r]=DESTINATIONS.filter(d=>d.region===r).length;
+  $$('[data-n]').forEach(e=>e.textContent=cnt[e.dataset.n]);
+  const avg=a=>Math.round(a.reduce((s,x)=>s+x,0)/(a.length||1));
+  $('#stats').innerHTML=`<div class="stat"><b>${DESTINATIONS.length}</b><span>destinations</span></div>
+    <div class="stat"><b>${money(avg(list.map(d=>(d.flight[0]+d.flight[1])/2)))}</b><span>avg flight (shown)</span></div>
+    <div class="stat"><b>${money(avg(list.map(total)))}</b><span>avg ${S.nights}-night trip</span></div>
+    <div class="stat"><b>${S.fav.size}</b><span>shortlisted</span></div>`;
+}
+
+/* ---------- modal ---------- */
+const dlg=$('#dlg');let cur=null;
+const li=a=>`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+const q=(d,s)=>encodeURIComponent(`${d.name} ${s}`);
+function panes(d){
+  const nights=S.nights,st=stayCost(d),dl=d.daily[S.style];
+  return {
+    Overview:`<div class="callout"><b>Entry:</b> ${ENTRY[d.entry]} · ${esc(d.stay)}<br>${esc(d.entryNote)}</div>
+      ${d.safety>=3?`<div class="callout warn"><b>${SAFETY_LABEL[d.safety]} risk:</b> ${esc(d.safetyNote)}</div>`:`<div class="callout"><b>Safety (${SAFETY_LABEL[d.safety]}):</b> ${esc(d.safetyNote)}</div>`}
+      <h4>Best time</h4><p>${esc(d.best)}</p>${monthStrip(d)}
+      <h4>Getting there from Accra</h4><p>${d.hours?`<b>${esc(d.hours)}</b><br>`:''}${esc(d.flightNote)}</p>
+      <h4>Quick facts</h4><p>Currency: ${esc(d.cur)} · Languages: ${esc(d.lang)}</p>
+      ${d.events?`<h4>Events &amp; festivals</h4><p>${esc(d.events)}</p>`:''}`,
+    Costs:`<table class="cost">
+      <tr><td>Return flight from Accra (economy)</td><td>${money(d.flight[0])}–${money(d.flight[1])}</td></tr>
+      <tr><td>Hotel / night — budget · mid · luxury</td><td>${money(d.hotel[0])} · ${money(d.hotel[1])} · ${money(d.hotel[2])}</td></tr>
+      <tr><td>Airbnb / night (mid-range)</td><td>~${money(d.airbnb)}</td></tr>
+      <tr><td>Daily food + transport + activities — budget · mid · comfort</td><td>${money(d.daily[0])} · ${money(d.daily[1])} · ${money(d.daily[2])}</td></tr>
+      <tr><td><b>Your estimate</b> (${nights} nights, ${['budget','mid','comfort'][S.style]}, ${S.stay})</td><td>≈ ${money(total(d))}</td></tr></table>
+      <p class="reg">Estimate = mid-point-ish flight + ${nights} × (${money(st)} stay + ${money(dl)} daily). Excludes visas, travel insurance, safari/permit fees and shopping.</p>`,
+    'Do & See':`<h4>Best spots</h4>${li(d.spots)}<h4>Best activities</h4>${li(d.doThings)}`,
+    Eat:`<h4>Must-try food</h4>${li(d.eat)}`,
+    Know:`<h4>Traveller tips</h4>${li(d.tips)}<h4>What’s not great / watch out for</h4>${li(d.avoid)}`,
+    Videos:`<p class="reg">Live TikTok &amp; YouTube searches (individual video links go stale, so these always show current results).</p><div class="vid-grid">
+      ${[['Travel guide','travel guide'],['Budget trip','budget trip cost'],['From Ghana / African traveller','Ghanaian African travel vlog'],['Best things to do','best things to do'],['Food tour','food tour']].map(([l,s])=>
+        `<a class="vid" target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${q(d,s)}"><b>🎵 ${l}</b><small>TikTok search</small></a>
+         <a class="vid" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q(d,s)}"><b>▶ ${l}</b><small>YouTube search</small></a>`).join('')}</div>
+      <p class="reg" style="margin-top:12px">Tip: also search the hashtag #${esc(d.name.replace(/[^a-z]/gi,'').toLowerCase())}travel on TikTok.</p>`
+  };
+}
+function openModal(id){
+  const d=DESTINATIONS.find(x=>x.id===id);cur=d;const p=panes(d);
+  dlg.innerHTML=`<div class="mh"><div><div class="reg">${REGIONS[d.region]}</div><h2>${d.flag} ${esc(d.name)}</h2>
+      <span class="badge b-${d.entry}">${ENTRY[d.entry]}</span></div>
+      <div style="display:flex;gap:8px;align-items:flex-start"><button class="btn ${S.fav.has(id)?'on':''}" id="mfav" data-act="fav" data-id="${id}">${S.fav.has(id)?'★ Shortlisted':'☆ Shortlist'}</button><button class="btn" id="mclose">✕</button></div></div>
+    <div class="mtabs" role="tablist">${Object.keys(p).map((k,i)=>`<button class="mtab" role="tab" aria-selected="${i===0}" data-p="${k}">${k}</button>`).join('')}</div>
+    <div class="mbody" id="mbody">${Object.values(p)[0]}</div>`;
+  $('#mclose').onclick=()=>dlg.close();
+  $$('.mtab',dlg).forEach(b=>b.onclick=()=>{$$('.mtab',dlg).forEach(x=>x.setAttribute('aria-selected',x===b));$('#mbody').innerHTML=p[b.dataset.p]});
+  dlg.showModal();
+}
+function refreshModalButtons(id){const b=$('#mfav');if(b&&dlg.open&&cur&&cur.id===id){const on=S.fav.has(id);b.classList.toggle('on',on);b.textContent=on?'★ Shortlisted':'☆ Shortlist'}}
+dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+
+render();
+</script>
+</body>
+</html>
