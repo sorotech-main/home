@@ -8,50 +8,59 @@
 - Several Caribbean/Asia routings can need **transit visas** for Ghanaians (Schengen airport-transit, UK DATV, US transit). Check every connection.
 - Singapore, Kenya, Tanzania, Uganda, Zimbabwe, Zambia entry details vary by source — verify with the official portal.
 
+## ✊🏿 About the Black Traveller Index
+An editorial planning estimate, not an official statistic. It starts at 100, subtracts 14 points per general-safety step and 22 points per racism/xenophobia-risk step, and is capped at 25 where most governments advise against travel. Cross-check government advisories, ECRI reports and recent traveller accounts.
+
+- Carry your passport, yellow-fever card, hotel booking and onward/return ticket. African passports are often checked more closely at borders, especially into the Caribbean and Asia.
+- Pack hair and skin-care products you rely on. Availability for Black hair and skin varies a lot, especially in Asia, the Maldives and the Indian Ocean islands.
+- Use licensed taxis or ride-hailing apps, and agree prices up front, since you may be assumed to be a local or a migrant depending on where you are.
+- Check the government travel advisory and recent traveller reports (YouTube, Reddit, Black Travel Alliance posts) for the month you plan to go.
+- If you are stopped by police or officials, stay calm, stay polite, ask for ID, and keep copies of your documents in a separate bag.
+
 ## 📊 Comparison table
-| Destination | Entry | Flight | Hotel mid | Daily mid | Best time | Safety |
-|---|---|---|---|---|---|---|
-| 🇧🇯 Benin | Visa-free | $170–$320 | $60 | $40 | Nov–Mar | 🟡 Moderate |
-| 🇧🇫 Burkina Faso | Visa-free | $320–$520 | $60 | $40 | Nov–Feb | 🔴 Avoid |
-| 🇨🇻 Cabo Verde | Visa-free | $650–$950 | $90 | $60 | Nov–Jun | 🟢 Low risk |
-| 🇨🇮 Côte d'Ivoire | Visa-free | $170–$330 | $80 | $50 | Nov–Mar | 🟡 Moderate |
-| 🇬🇲 The Gambia | Visa-free | $420–$700 | $70 | $40 | Nov–May | 🟡 Moderate |
-| 🇬🇳 Guinea | Visa-free | $380–$650 | $90 | $50 | Dec–Mar | 🟠 Elevated |
-| 🇬🇼 Guinea-Bissau | Visa-free | $550–$850 | $60 | $40 | Dec–Apr | 🟠 Elevated |
-| 🇱🇷 Liberia | Visa-free | $280–$480 | $100 | $60 | Nov–Apr | 🟡 Moderate |
-| 🇲🇱 Mali | Visa-free | $380–$620 | $70 | $45 | Nov–Feb | 🔴 Avoid |
-| 🇳🇪 Niger | Visa-free | $420–$680 | $70 | $40 | Nov–Feb | 🔴 Avoid |
-| 🇳🇬 Nigeria | Visa-free | $220–$400 | $90 | $60 | Nov–Feb | 🟠 Elevated |
-| 🇸🇳 Senegal | Visa-free | $380–$620 | $90 | $55 | Nov–May | 🟡 Moderate |
-| 🇸🇱 Sierra Leone | Visa-free | $300–$500 | $90 | $55 | Dec–Apr | 🟡 Moderate |
-| 🇹🇬 Togo | Visa-free | $110–$230 | $50 | $35 | Nov–Mar | 🟡 Moderate |
-| 🇰🇪 Kenya | eTA / online authorisation | $480–$780 | $100 | $70 | Jul–Oct & Jan–Feb | 🟡 Moderate |
-| 🇱🇸 Lesotho | Visa-free | $900–$1,400 | $70 | $45 | Dec–Mar (green) & Jun–Aug (snow) | 🟡 Moderate |
-| 🇲🇼 Malawi | Visa-free | $850–$1,250 | $60 | $45 | May–Oct | 🟡 Moderate |
-| 🇲🇺 Mauritius | Visa-free | $950–$1,500 | $130 | $70 | May–Dec | 🟢 Low risk |
-| 🇲🇿 Mozambique | Visa-free | $850–$1,300 | $90 | $55 | May–Oct | 🟠 Elevated |
-| 🇷🇼 Rwanda | Visa on arrival | $600–$950 | $90 | $60 | Jun–Sep & Dec–Feb | 🟢 Low risk |
-| 🇸🇨 Seychelles | eTA / online authorisation | $1,050–$1,700 | $200 | $110 | Apr–May & Oct–Nov | 🟢 Low risk |
-| 🇿🇦 South Africa | Visa-free | $620–$980 | $95 | $60 | May–Sep (safari) / Oct–Apr (Cape) | 🟠 Elevated |
-| 🇸🇿 Eswatini | Visa-free | $900–$1,350 | $80 | $45 | May–Sep | 🟢 Low risk |
-| 🇹🇿 Tanzania | Visa on arrival | $650–$1,050 | $80 | $60 | Jun–Oct, Jan–Feb | 🟡 Moderate |
-| 🇺🇬 Uganda | Visa on arrival | $600–$950 | $70 | $55 | Jun–Aug & Dec–Feb | 🟡 Moderate |
-| 🇿🇼 Zimbabwe | Visa on arrival | $850–$1,300 | $90 | $65 | May–Oct | 🟡 Moderate |
-| 🇿🇲 Zambia | Visa on arrival | $750–$1,150 | $80 | $60 | May–Oct | 🟡 Moderate |
-| 🇲🇦 Morocco | eTA / online authorisation | $450–$800 | $70 | $50 | Mar–May, Sep–Nov | 🟡 Moderate |
-| 🇦🇬 Antigua & Barbuda | Visa-free | $1,300–$2,100 | $200 | $100 | Dec–Apr | 🟢 Low risk |
-| 🇧🇸 The Bahamas | Visa-free | $1,300–$2,200 | $230 | $120 | Dec–Apr | 🟡 Moderate |
-| 🇧🇧 Barbados | Visa-free | $1,300–$2,100 | $180 | $95 | Dec–May | 🟢 Low risk |
-| 🇩🇲 Dominica | Visa-free | $1,500–$2,400 | $130 | $80 | Jan–Apr | 🟢 Low risk |
-| 🇬🇩 Grenada | Visa-free | $1,400–$2,300 | $160 | $85 | Dec–May | 🟢 Low risk |
-| 🇬🇾 Guyana | Visa-free | $1,400–$2,200 | $110 | $65 | Feb–Apr & Aug–Oct | 🟠 Elevated |
-| 🇯🇲 Jamaica | Visa-free | $1,200–$2,000 | $150 | $85 | Dec–Apr | 🟠 Elevated |
-| 🇰🇳 Saint Kitts & Nevis | Visa-free | $1,500–$2,400 | $180 | $90 | Dec–Apr | 🟢 Low risk |
-| 🇻🇨 St Vincent & the Grenadines | Visa-free | $1,600–$2,500 | $150 | $90 | Dec–Apr | 🟢 Low risk |
-| 🇹🇹 Trinidad & Tobago | Visa-free | $1,200–$1,900 | $120 | $75 | Jan–May | 🟠 Elevated |
-| 🇲🇻 Maldives | Visa on arrival | $1,000–$1,800 | $250 | $100 | Nov–Apr | 🟢 Low risk |
-| 🇸🇬 Singapore | Visa-free | $1,100–$1,800 | $170 | $70 | Feb–Apr | 🟢 Low risk |
-| 🇫🇯 Fiji | Visa-free | $1,900–$3,000 | $130 | $75 | May–Oct | 🟢 Low risk |
+| Destination | Entry | Flight | Hotel mid | Daily mid | Best time | Safety | Racism risk | Black Traveller Index |
+|---|---|---|---|---|---|---|---|---|
+| 🇧🇯 Benin | Visa-free | $170–$320 | $60 | $40 | Nov–Mar | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇧🇫 Burkina Faso | Visa-free | $320–$520 | $60 | $40 | Nov–Feb | 🔴 Avoid | Low | 25 (Caution) |
+| 🇨🇻 Cabo Verde | Visa-free | $650–$950 | $90 | $60 | Nov–Jun | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇨🇮 Côte d'Ivoire | Visa-free | $170–$330 | $80 | $50 | Nov–Mar | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇬🇲 The Gambia | Visa-free | $420–$700 | $70 | $40 | Nov–May | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇬🇳 Guinea | Visa-free | $380–$650 | $90 | $50 | Dec–Mar | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇬🇼 Guinea-Bissau | Visa-free | $550–$850 | $60 | $40 | Dec–Apr | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇱🇷 Liberia | Visa-free | $280–$480 | $100 | $60 | Nov–Apr | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇲🇱 Mali | Visa-free | $380–$620 | $70 | $45 | Nov–Feb | 🔴 Avoid | Low | 25 (Caution) |
+| 🇳🇪 Niger | Visa-free | $420–$680 | $70 | $40 | Nov–Feb | 🔴 Avoid | Low | 25 (Caution) |
+| 🇳🇬 Nigeria | Visa-free | $220–$400 | $90 | $60 | Nov–Feb | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇸🇳 Senegal | Visa-free | $380–$620 | $90 | $55 | Nov–May | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇸🇱 Sierra Leone | Visa-free | $300–$500 | $90 | $55 | Dec–Apr | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇹🇬 Togo | Visa-free | $110–$230 | $50 | $35 | Nov–Mar | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇰🇪 Kenya | eTA / online authorisation | $480–$780 | $100 | $70 | Jul–Oct & Jan–Feb | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇱🇸 Lesotho | Visa-free | $900–$1,400 | $70 | $45 | Dec–Mar (green) & Jun–Aug (snow) | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇲🇼 Malawi | Visa-free | $850–$1,250 | $60 | $45 | May–Oct | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇲🇺 Mauritius | Visa-free | $950–$1,500 | $130 | $70 | May–Dec | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇲🇿 Mozambique | Visa-free | $850–$1,300 | $90 | $55 | May–Oct | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇷🇼 Rwanda | Visa on arrival | $600–$950 | $90 | $60 | Jun–Sep & Dec–Feb | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇸🇨 Seychelles | eTA / online authorisation | $1,050–$1,700 | $200 | $110 | Apr–May & Oct–Nov | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇿🇦 South Africa | Visa-free | $620–$980 | $95 | $60 | May–Sep (safari) / Oct–Apr (Cape) | 🟠 Elevated | Notable | 28 (Caution) |
+| 🇸🇿 Eswatini | Visa-free | $900–$1,350 | $80 | $45 | May–Sep | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇹🇿 Tanzania | Visa on arrival | $650–$1,050 | $80 | $60 | Jun–Oct, Jan–Feb | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇺🇬 Uganda | Visa on arrival | $600–$950 | $70 | $55 | Jun–Aug & Dec–Feb | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇿🇼 Zimbabwe | Visa on arrival | $850–$1,300 | $90 | $65 | May–Oct | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇿🇲 Zambia | Visa on arrival | $750–$1,150 | $80 | $60 | May–Oct | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇲🇦 Morocco | eTA / online authorisation | $450–$800 | $70 | $50 | Mar–May, Sep–Nov | 🟡 Moderate | Notable | 42 (Mixed) |
+| 🇦🇬 Antigua & Barbuda | Visa-free | $1,300–$2,100 | $200 | $100 | Dec–Apr | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇧🇸 The Bahamas | Visa-free | $1,300–$2,200 | $230 | $120 | Dec–Apr | 🟡 Moderate | Low | 86 (Very comfortable) |
+| 🇧🇧 Barbados | Visa-free | $1,300–$2,100 | $180 | $95 | Dec–May | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇩🇲 Dominica | Visa-free | $1,500–$2,400 | $130 | $80 | Jan–Apr | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇬🇩 Grenada | Visa-free | $1,400–$2,300 | $160 | $85 | Dec–May | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇬🇾 Guyana | Visa-free | $1,400–$2,200 | $110 | $65 | Feb–Apr & Aug–Oct | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇯🇲 Jamaica | Visa-free | $1,200–$2,000 | $150 | $85 | Dec–Apr | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇰🇳 Saint Kitts & Nevis | Visa-free | $1,500–$2,400 | $180 | $90 | Dec–Apr | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇻🇨 St Vincent & the Grenadines | Visa-free | $1,600–$2,500 | $150 | $90 | Dec–Apr | 🟢 Low risk | Low | 100 (Very comfortable) |
+| 🇹🇹 Trinidad & Tobago | Visa-free | $1,200–$1,900 | $120 | $75 | Jan–May | 🟠 Elevated | Low | 72 (Comfortable) |
+| 🇲🇻 Maldives | Visa on arrival | $1,000–$1,800 | $250 | $100 | Nov–Apr | 🟢 Low risk | Some | 78 (Comfortable) |
+| 🇸🇬 Singapore | Visa-free | $1,100–$1,800 | $170 | $70 | Feb–Apr | 🟢 Low risk | Some | 78 (Comfortable) |
+| 🇫🇯 Fiji | Visa-free | $1,900–$3,000 | $130 | $75 | May–Oct | 🟢 Low risk | Some | 78 (Comfortable) |
 
 ---
 
@@ -68,6 +77,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $40 · $90 |
 | 📅 Best time | Nov–Mar |
 | 🛡️ Safety | 🟡 Moderate — Southern Benin is calm; the far north (Pendjari/W parks near Burkina) has advisories. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority society with no notable anti-Black racism. Expect to be read as local, so agree taxi and market prices before you start. |
 | 💱 Currency / language | XOF (CFA franc) · French, Fon |
 
 **Getting there:** Direct/1-stop flights to Cotonou; most overland via Aflao–Lomé–Hillacondji.
@@ -102,7 +112,7 @@
 - Rainy peaks Jun–Jul make roads muddy
 - Limited nightlife infrastructure
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Benin%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Benin%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Benin%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Benin%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Benin%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Benin%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Benin%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Benin%20travel%20guide)
 
 ### 🇧🇫 Burkina Faso
 **Entry:** Visa-free · 90 days (check current status) — Left ECOWAS Jan 2025 but promised to keep free movement for ECOWAS citizens — confirm at the border/embassy.
@@ -115,6 +125,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $40 · $80 |
 | 📅 Best time | Nov–Feb |
 | 🛡️ Safety | 🔴 Avoid — Most governments advise AGAINST all or most travel (jihadist insurgency, blockades). Not recommended for tourism. |
+| ✊🏿 Black Traveller Index | 25/100 (Caution) · racism risk Low — Black-majority. Racism is not the concern here, security is. See the safety rating. |
 | 💱 Currency / language | XOF · French, Mooré, Dioula |
 
 **Getting there:** Flights to Ouagadougou via Accra hub; overland not advised.
@@ -146,7 +157,7 @@
 - Possible fuel/food shortages
 - Insurance often void in advisory zones
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Burkina%20Faso%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Burkina%20Faso%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Burkina%20Faso%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Burkina%20Faso%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Burkina%20Faso%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Burkina%20Faso%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Burkina%20Faso%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Burkina%20Faso%20travel%20guide)
 
 ### 🇨🇻 Cabo Verde
 **Entry:** Visa-free · 90 days — ECOWAS; also an online EASE airport-security fee (~€34) is charged on arrival/online.
@@ -159,6 +170,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $130 |
 | 📅 Best time | Nov–Jun |
 | 🛡️ Safety | 🟢 Low risk — One of Africa's safest, most stable countries. Petty theft in Praia/Mindelo. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Afro-Portuguese Creole society, welcoming to visitors of African descent. Some prejudice toward continental African migrants has been reported, but tourists rarely meet it. |
 | 💱 Currency / language | CVE · Portuguese, Kriolu |
 
 **Getting there:** Few direct options; route via Dakar, Casablanca or Lisbon (check transit rules).
@@ -193,7 +205,7 @@
 - Island-hopping logistics
 - Prices high in Sal resorts
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Cabo%20Verde%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Cabo%20Verde%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Cabo%20Verde%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Cabo%20Verde%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Cabo%20Verde%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Cabo%20Verde%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Cabo%20Verde%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Cabo%20Verde%20travel%20guide)
 
 ### 🇨🇮 Côte d'Ivoire
 **Entry:** Visa-free · 90 days — ECOWAS; yellow fever certificate required.
@@ -206,6 +218,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $50 · $100 |
 | 📅 Best time | Nov–Mar |
 | 🛡️ Safety | 🟡 Moderate — Abidjan is generally safe with normal city precautions; north borders have advisories. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority. Political tensions around nationality ("ivoirité") exist, but visitors rarely encounter hostility. |
 | 💱 Currency / language | XOF · French |
 
 **Getting there:** Frequent Accra–Abidjan flights; popular coastal road via Elubo (~$30–45 bus).
@@ -239,7 +252,7 @@
 - Rainy season (May–Jul) flooding
 - Overpriced taxis if you don't negotiate
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=C%C3%B4te%20d'Ivoire%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=C%C3%B4te%20d'Ivoire%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=C%C3%B4te%20d'Ivoire%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=C%C3%B4te%20d'Ivoire%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=C%C3%B4te%20d'Ivoire%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=C%C3%B4te%20d'Ivoire%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=C%C3%B4te%20d'Ivoire%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=C%C3%B4te%20d'Ivoire%20travel%20guide)
 
 ### 🇬🇲 The Gambia
 **Entry:** Visa-free · 90 days — ECOWAS; yellow fever card.
@@ -252,6 +265,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $40 · $90 |
 | 📅 Best time | Nov–May |
 | 🛡️ Safety | 🟡 Moderate — Generally friendly and calm; beach hassle from touts and occasional petty theft. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and tourist-friendly. The main nuisance is persistent touts on tourist beaches, which happens to all visitors. |
 | 💱 Currency / language | GMD (dalasi) · English |
 
 **Getting there:** Usually 1 stop; sometimes cheaper via Lagos or Dakar.
@@ -286,7 +300,7 @@
 - Persistent "bumster" touts
 - Power cuts in some areas
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=The%20Gambia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=The%20Gambia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=The%20Gambia%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=The%20Gambia%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=The%20Gambia%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=The%20Gambia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=The%20Gambia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=The%20Gambia%20travel%20guide)
 
 ### 🇬🇳 Guinea
 **Entry:** Visa-free · 90 days — ECOWAS (Guinea is suspended from ECOWAS bodies post-coup but movement rules are generally honoured — confirm).
@@ -299,6 +313,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $50 · $100 |
 | 📅 Best time | Dec–Mar |
 | 🛡️ Safety | 🟠 Elevated — Political tension & periodic unrest; avoid demonstrations, check advisories. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Black-majority. Concern is political unrest and thin infrastructure, not racism. |
 | 💱 Currency / language | GNF · French |
 
 **Getting there:** Via Abidjan/Dakar/Freetown; limited direct.
@@ -330,7 +345,7 @@
 - Heavy rains Jun–Oct make roads hard
 - Limited tourist infrastructure
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Guinea%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guinea%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guinea%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Guinea%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Guinea%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Guinea%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guinea%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guinea%20travel%20guide)
 
 ### 🇬🇼 Guinea-Bissau
 **Entry:** Visa-free · 90 days — ECOWAS.
@@ -343,6 +358,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $40 · $90 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟠 Elevated — Recurring political crises/coups (latest reported late 2025) — monitor advisories; infrastructure is thin. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Black-majority. Concern is political instability, not racism. |
 | 💱 Currency / language | XOF · Portuguese, Kriol |
 
 **Getting there:** Via Dakar/Lisbon/Casablanca.
@@ -374,7 +390,7 @@
 - Tourist services very limited
 - Malaria — take prophylaxis
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Guinea-Bissau%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guinea-Bissau%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guinea-Bissau%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Guinea-Bissau%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Guinea-Bissau%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Guinea-Bissau%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guinea-Bissau%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guinea-Bissau%20travel%20guide)
 
 ### 🇱🇷 Liberia
 **Entry:** Visa-free · 90 days — ECOWAS.
@@ -387,6 +403,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $120 |
 | 📅 Best time | Nov–Apr |
 | 🛡️ Safety | 🟡 Moderate — Calm but petty theft; poor roads and limited emergency services. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority with deep US-diaspora ties. Welcoming, and a popular first stop for diaspora travellers. |
 | 💱 Currency / language | LRD (USD widely used) · English |
 
 **Getting there:** Direct/1-stop to Monrovia (ASKY/Air Côte d'Ivoire/Royal Air Maroc).
@@ -419,7 +436,7 @@
 - Costly for what you get in Monrovia
 - Healthcare is limited
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Liberia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Liberia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Liberia%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Liberia%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Liberia%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Liberia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Liberia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Liberia%20travel%20guide)
 
 ### 🇲🇱 Mali
 **Entry:** Visa-free · 90 days (check current status) — Left ECOWAS Jan 2025; pledged to keep free movement for ECOWAS citizens — verify before travel.
@@ -432,6 +449,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $45 · $90 |
 | 📅 Best time | Nov–Feb |
 | 🛡️ Safety | 🔴 Avoid — Do-not-travel advisories from most governments (insurgency, fuel blockades, kidnappings). Not recommended. |
+| ✊🏿 Black Traveller Index | 25/100 (Caution) · racism risk Low — Black-majority. Concern is the security situation and blockades, not racism. |
 | 💱 Currency / language | XOF · French, Bambara |
 
 **Getting there:** Few reliable flights; overland not advised.
@@ -462,7 +480,7 @@
 - Insurance exclusions
 - Fuel/power cuts
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Mali%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mali%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mali%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Mali%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Mali%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Mali%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mali%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mali%20travel%20guide)
 
 ### 🇳🇪 Niger
 **Entry:** Visa-free · 90 days (check current status) — Left ECOWAS Jan 2025; verify entry terms.
@@ -475,6 +493,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $20 · $40 · $85 |
 | 📅 Best time | Nov–Feb |
 | 🛡️ Safety | 🔴 Avoid — Do-not-travel advisories; border closures with Benin/Nigeria, insurgency. Not recommended. |
+| ✊🏿 Black Traveller Index | 25/100 (Caution) · racism risk Low — Black-majority. Concern is the security situation and border closures, not racism. |
 | 💱 Currency / language | XOF · French, Hausa |
 
 **Getting there:** Limited flights; via Lomé/Abidjan.
@@ -504,7 +523,7 @@
 - Land borders can be closed
 - Extreme heat Mar–Jun
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Niger%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Niger%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Niger%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Niger%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Niger%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Niger%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Niger%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Niger%20travel%20guide)
 
 ### 🇳🇬 Nigeria
 **Entry:** Visa-free · 90 days — ECOWAS; yellow fever card; fast flights and road via Benin/Togo.
@@ -517,6 +536,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $130 |
 | 📅 Best time | Nov–Feb |
 | 🛡️ Safety | 🟠 Elevated — Lagos/Abuja/Calabar manageable with care; north-east/north-west and parts of the south-east carry advisories. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Black-majority. Ghana–Nigeria rivalry (trade, football, jollof) shows up as banter and occasionally in headlines; visitors are rarely affected. |
 | 💱 Currency / language | NGN (naira, volatile) · English, Yoruba, Igbo, Hausa |
 
 **Getting there:** Dozens of weekly Accra–Lagos flights; Abuja too.
@@ -552,7 +572,7 @@
 - December prices spike
 - Security risks in northern states
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Nigeria%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Nigeria%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Nigeria%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Nigeria%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Nigeria%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Nigeria%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Nigeria%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Nigeria%20travel%20guide)
 
 ### 🇸🇳 Senegal
 **Entry:** Visa-free · 90 days — ECOWAS.
@@ -565,6 +585,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $55 · $110 |
 | 📅 Best time | Nov–May |
 | 🛡️ Safety | 🟡 Moderate — Stable democracy; Casamance and the Mali border area need caution. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority, famous for "teranga" hospitality. Dakar street hawkers can be pushy with all foreigners. |
 | 💱 Currency / language | XOF · French, Wolof |
 
 **Getting there:** Often via Abidjan or Casablanca; Air Sénégal/ASKY.
@@ -598,7 +619,7 @@
 - Rainy season Jul–Oct
 - Casamance north-east
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Senegal%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Senegal%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Senegal%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Senegal%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Senegal%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Senegal%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Senegal%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Senegal%20travel%20guide)
 
 ### 🇸🇱 Sierra Leone
 **Entry:** Visa-free · 90 days — ECOWAS.
@@ -611,6 +632,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $55 · $110 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟡 Moderate — Friendly and relaxed; petty theft and rough roads. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and warm toward visitors, with a strong diaspora-return tourism story. |
 | 💱 Currency / language | SLE · English, Krio |
 
 **Getting there:** Via Monrovia/Banjul; fly to Lungi then ferry/helicopter.
@@ -643,7 +665,7 @@
 - Transfers from airport are time-consuming
 - Healthcare limited
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Sierra%20Leone%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Sierra%20Leone%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Sierra%20Leone%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Sierra%20Leone%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Sierra%20Leone%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Sierra%20Leone%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Sierra%20Leone%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Sierra%20Leone%20travel%20guide)
 
 ### 🇹🇬 Togo
 **Entry:** Visa-free · 90 days — ECOWAS; easiest border crossing from Ghana (Aflao).
@@ -656,6 +678,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $15 · $35 · $80 |
 | 📅 Best time | Nov–Mar |
 | 🛡️ Safety | 🟡 Moderate — Calm in south; advisories for far north near Burkina. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and an easy border crossing from Ghana. No notable anti-Black racism. |
 | 💱 Currency / language | XOF · French, Ewe |
 
 **Getting there:** Just 3h from Accra by road — cheapest trip on the list.
@@ -689,7 +712,7 @@
 - Far north security
 - Cards rarely accepted
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Togo%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Togo%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Togo%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Togo%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Togo%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Togo%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Togo%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Togo%20travel%20guide)
 
 ---
 
@@ -706,6 +729,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $35 · $70 · $160 |
 | 📅 Best time | Jul–Oct & Jan–Feb |
 | 🛡️ Safety | 🟡 Moderate — Protests in Nairobi have occurred; usual city caution. Avoid border areas with Somalia. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and tourist-experienced. Safari lodges and Nairobi are comfortable; the risk is petty crime and occasional protests, not racism. |
 | 💱 Currency / language | KES · English, Swahili |
 
 **Getting there:** Kenya Airways flies Accra–Nairobi non-stop at times; check direct availability.
@@ -740,7 +764,7 @@
 - Nairobi traffic
 - Long rains Apr–May
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Kenya%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Kenya%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Kenya%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Kenya%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Kenya%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Kenya%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Kenya%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Kenya%20travel%20guide)
 
 ### 🇱🇸 Lesotho
 **Entry:** Visa-free · 30–90 days — Visa-free per your list; usually entered via South Africa (SA transit/entry rules apply).
@@ -753,6 +777,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $45 · $90 |
 | 📅 Best time | Dec–Mar (green) & Jun–Aug (snow) |
 | 🛡️ Safety | 🟡 Moderate — Generally safe; remote roads and weather are the main risks. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and rarely visited, so you may attract friendly curiosity. No notable racism. |
 | 💱 Currency / language | LSL (pegged to ZAR) · Sesotho, English |
 
 **Getting there:** Fly into Johannesburg/Bloemfontein then drive/bus to Maseru.
@@ -786,7 +811,7 @@
 - Flights are costly and long
 - Few ATMs outside Maseru
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Lesotho%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Lesotho%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Lesotho%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Lesotho%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Lesotho%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Lesotho%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Lesotho%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Lesotho%20travel%20guide)
 
 ### 🇲🇼 Malawi
 **Entry:** Visa-free · 90 days — Visa-free per your list; confirm at embassy.
@@ -799,6 +824,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $45 · $90 |
 | 📅 Best time | May–Oct |
 | 🛡️ Safety | 🟡 Moderate — "Warm Heart of Africa" — friendly; fuel and forex shortages can disrupt travel. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and widely described as friendly. No notable racism. |
 | 💱 Currency / language | MWK (volatile) · English, Chichewa |
 
 **Getting there:** Via Addis Ababa, Nairobi or Johannesburg.
@@ -832,7 +858,7 @@
 - Roads in rainy season (Nov–Apr)
 - Limited nightlife
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Malawi%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Malawi%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Malawi%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Malawi%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Malawi%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Malawi%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Malawi%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Malawi%20travel%20guide)
 
 ### 🇲🇺 Mauritius
 **Entry:** Visa-free · 90 days — Visa-free per your list; online arrival form (Mauritius Passenger Form) required.
@@ -845,6 +871,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $35 · $70 · $160 |
 | 📅 Best time | May–Dec |
 | 🛡️ Safety | 🟢 Low risk — Very safe, politically stable. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Multi-ethnic island. The Afro-Mauritian (Creole) community is socially marginalised in places, but visitors of African descent are generally welcomed; resorts are very comfortable. |
 | 💱 Currency / language | MUR · English, French, Creole |
 
 **Getting there:** No direct from Accra.
@@ -879,7 +906,7 @@
 - Cyclones & heavy rain Jan–Mar
 - Flights long & pricey
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Mauritius%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mauritius%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mauritius%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Mauritius%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Mauritius%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Mauritius%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mauritius%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mauritius%20travel%20guide)
 
 ### 🇲🇿 Mozambique
 **Entry:** Visa-free · 30–90 days — Visa-free per your list; confirm with embassy.
@@ -892,6 +919,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $55 · $120 |
 | 📅 Best time | May–Oct |
 | 🛡️ Safety | 🟠 Elevated — Southern/central coast okay; Cabo Delgado (north) is a no-go; post-election unrest late 2024/25. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Black-majority. Concern is regional unrest and police stops, not racism. |
 | 💱 Currency / language | MZN · Portuguese |
 
 **Getting there:** Via Johannesburg or Addis Ababa.
@@ -925,7 +953,7 @@
 - Political demonstrations
 - Malaria areas
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Mozambique%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mozambique%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mozambique%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Mozambique%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Mozambique%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Mozambique%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Mozambique%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Mozambique%20travel%20guide)
 
 ### 🇷🇼 Rwanda
 **Entry:** Visa on arrival · 30–90 days — Visa on arrival / online; Africans typically visa-free or free VOA. Verify.
@@ -938,6 +966,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $140 |
 | 📅 Best time | Jun–Sep & Dec–Feb |
 | 🛡️ Safety | 🟢 Low risk — Among Africa's safest & cleanest. Avoid DRC border areas. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority, clean and orderly, strongly pro-visitor. Among the most comfortable places in Africa to travel. |
 | 💱 Currency / language | RWF · Kinyarwanda, English, French |
 
 **Getting there:** Via Nairobi/Addis; RwandAir links some West African capitals.
@@ -971,7 +1000,7 @@
 - Strict on political discussion
 - DRC border zone
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Rwanda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Rwanda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Rwanda%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Rwanda%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Rwanda%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Rwanda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Rwanda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Rwanda%20travel%20guide)
 
 ### 🇸🇨 Seychelles
 **Entry:** eTA / online authorisation · Up to 3 months — Online Travel Authorisation (free) required before arrival.
@@ -984,6 +1013,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $60 · $110 · $250 |
 | 📅 Best time | Apr–May & Oct–Nov |
 | 🛡️ Safety | 🟢 Low risk — Very safe; petty theft at beaches. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Majority Creole and mixed heritage population. Welcoming; resorts are mostly insulated from any tension. |
 | 💱 Currency / language | SCR · Creole, English, French |
 
 **Getting there:** No direct from Accra.
@@ -1018,7 +1048,7 @@
 - Rainy NW monsoon Dec–Mar
 - Rough seas Jun–Sep
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Seychelles%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Seychelles%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Seychelles%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Seychelles%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Seychelles%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Seychelles%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Seychelles%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Seychelles%20travel%20guide)
 
 ### 🇿🇦 South Africa
 **Entry:** Visa-free · 30 days — Visa-free for up to 30 days per your list; verify and carry yellow fever certificate if coming via endemic country.
@@ -1031,6 +1061,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $140 |
 | 📅 Best time | May–Sep (safari) / Oct–Apr (Cape) |
 | 🛡️ Safety | 🟠 Elevated — Great infrastructure, but high crime in cities. Use ride-hailing and avoid walking at night. |
+| ✊🏿 Black Traveller Index | 28/100 (Caution) · racism risk Notable — Black-majority, but recurring anti-foreigner (Afrophobic) campaigns and attacks have targeted other African nationals, especially in townships, and police can be rough with foreigners. Tourist areas are mostly fine. Carry ID, stay in tourist-friendly neighbourhoods, use ride-hailing. |
 | 💱 Currency / language | ZAR · English + 10 other official languages |
 
 **Getting there:** Direct Accra–Johannesburg; connect to Cape Town/Durban.
@@ -1066,7 +1097,7 @@
 - Winter chill in highveld
 - Stay length 30 days only
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=South%20Africa%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=South%20Africa%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=South%20Africa%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=South%20Africa%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=South%20Africa%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=South%20Africa%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=South%20Africa%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=South%20Africa%20travel%20guide)
 
 ### 🇸🇿 Eswatini
 **Entry:** Visa-free · 30 days — Visa-free per your list; usually entered via South Africa.
@@ -1079,6 +1110,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $45 · $90 |
 | 📅 Best time | May–Sep |
 | 🛡️ Safety | 🟢 Low risk — Calm and safe; absolute monarchy with some political sensitivity. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority and calm. No notable racism. |
 | 💱 Currency / language | SZL (pegged to ZAR) · siSwati, English |
 
 **Getting there:** Fly to Johannesburg then road/shuttle ~4h.
@@ -1112,7 +1144,7 @@
 - Few international flights
 - Occasional political tension
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Eswatini%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Eswatini%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Eswatini%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Eswatini%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Eswatini%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Eswatini%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Eswatini%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Eswatini%20travel%20guide)
 
 ### 🇹🇿 Tanzania
 **Entry:** Visa on arrival · 90 days — eVisa or visa on arrival per your list — verify current Ghanaian status and fee.
@@ -1125,6 +1157,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $140 |
 | 📅 Best time | Jun–Oct, Jan–Feb |
 | 🛡️ Safety | 🟡 Moderate — Safe for tourists; petty theft; political tension in 2025 elections. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority. Zanzibar and safari areas are tourist-experienced; you may be asked to pay "tourist" prices if mistaken for a foreign visitor. |
 | 💱 Currency / language | TZS · Swahili, English |
 
 **Getting there:** Dar es Salaam, Kilimanjaro or Zanzibar via a hub.
@@ -1158,7 +1191,7 @@
 - Kilimanjaro costs US$2,000+
 - Dress modestly in Zanzibar
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Tanzania%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Tanzania%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Tanzania%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Tanzania%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Tanzania%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Tanzania%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Tanzania%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Tanzania%20travel%20guide)
 
 ### 🇺🇬 Uganda
 **Entry:** Visa on arrival · 90 days — Per your list; East Africa Tourist Visa/e-visa may apply — verify.
@@ -1171,6 +1204,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $28 · $55 · $120 |
 | 📅 Best time | Jun–Aug & Dec–Feb |
 | 🛡️ Safety | 🟡 Moderate — Generally safe; LGBTQ+ travellers face serious legal risks (Anti-Homosexuality Act). |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and friendly. Note the country's harsh anti-LGBTQ laws if that is relevant to you. |
 | 💱 Currency / language | UGX · English, Swahili, Luganda |
 
 **Getting there:** Via Nairobi/Addis to Entebbe.
@@ -1204,7 +1238,7 @@
 - Road quality
 - Traffic in Kampala
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Uganda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Uganda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Uganda%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Uganda%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Uganda%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Uganda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Uganda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Uganda%20travel%20guide)
 
 ### 🇿🇼 Zimbabwe
 **Entry:** Visa on arrival · 30–90 days — Per your list; the KAZA UniVisa covers Zambia + Zimbabwe day trips.
@@ -1217,6 +1251,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $35 · $65 · $140 |
 | 📅 Best time | May–Oct |
 | 🛡️ Safety | 🟡 Moderate — Tourist areas safe; economic hardship; avoid protests. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority. Economic hardship drives some hustling in tourist areas; racism is not the issue. |
 | 💱 Currency / language | USD / ZiG · English, Shona, Ndebele |
 
 **Getting there:** Harare or Victoria Falls via hub.
@@ -1250,7 +1285,7 @@
 - Falls low Oct–Nov
 - Poor roads outside main routes
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Zimbabwe%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Zimbabwe%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Zimbabwe%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Zimbabwe%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Zimbabwe%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Zimbabwe%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Zimbabwe%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Zimbabwe%20travel%20guide)
 
 ### 🇿🇲 Zambia
 **Entry:** Visa on arrival · 30–90 days — Per your list; confirm VOA/e-visa fees.
@@ -1263,6 +1298,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $30 · $60 · $130 |
 | 📅 Best time | May–Oct |
 | 🛡️ Safety | 🟡 Moderate — Friendly & stable; some petty theft in Lusaka. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and often called one of Africa's friendliest countries. |
 | 💱 Currency / language | ZMW · English + local languages |
 
 **Getting there:** Lusaka/Livingstone via hub.
@@ -1296,7 +1332,7 @@
 - Long road transfers
 - Rainy season Nov–Apr
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Zambia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Zambia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Zambia%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Zambia%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Zambia%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Zambia%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Zambia%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Zambia%20travel%20guide)
 
 ### 🇲🇦 Morocco
 **Entry:** eTA / online authorisation · 90 days — Per your list: free online ETA before arrival. Verify.
@@ -1309,6 +1345,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $25 · $50 · $110 |
 | 📅 Best time | Mar–May, Sep–Nov |
 | 🛡️ Safety | 🟡 Moderate — Generally safe; scams and aggressive touts in medinas; petty theft. |
+| ✊🏿 Black Traveller Index | 42/100 (Mixed) · racism risk Notable — Anti-Black racism is documented in Morocco, mostly aimed at sub-Saharan migrants. Black visitors report stares, being called "azzi" and being assumed to be migrants, though the Marrakech, Essaouira and Casablanca tourist circuits are generally easier. Expect more questions at some checkpoints. |
 | 💱 Currency / language | MAD · Arabic, Amazigh, French |
 
 **Getting there:** Direct Accra–Casablanca; also a gateway to Europe (check Schengen transit rules).
@@ -1343,7 +1380,7 @@
 - Hot interior Jul–Aug
 - Ramadan limits daytime dining
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Morocco%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Morocco%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Morocco%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Morocco%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Morocco%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Morocco%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Morocco%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Morocco%20travel%20guide)
 
 ---
 
@@ -1360,6 +1397,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $55 · $100 · $220 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟢 Low risk — Very safe for tourists; petty theft. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority and warm to African visitors. Immigration may ask closely about onward tickets, hotel and funds for African passports. |
 | 💱 Currency / language | XCD · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1393,7 +1431,7 @@
 - Resort prices
 - Long flights from Accra
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Antigua%20%26%20Barbuda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Antigua%20%26%20Barbuda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Antigua%20%26%20Barbuda%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Antigua%20%26%20Barbuda%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Antigua%20%26%20Barbuda%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Antigua%20%26%20Barbuda%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Antigua%20%26%20Barbuda%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Antigua%20%26%20Barbuda%20travel%20guide)
 
 ### 🇧🇸 The Bahamas
 **Entry:** Visa-free · Up to 90 days — Per your list; online arrival form. Verify.
@@ -1406,6 +1444,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $70 · $120 · $260 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟡 Moderate — Resort areas fine; Nassau has crime in some neighbourhoods. |
+| ✊🏿 Black Traveller Index | 86/100 (Very comfortable) · racism risk Low — Black-majority and welcoming. Anti-Haitian sentiment exists locally but is not aimed at tourists. Expect firm immigration questions on arrival. |
 | 💱 Currency / language | BSD (= USD) · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1439,7 +1478,7 @@
 - Hurricane season
 - Nassau at night
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=The%20Bahamas%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=The%20Bahamas%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=The%20Bahamas%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=The%20Bahamas%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=The%20Bahamas%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=The%20Bahamas%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=The%20Bahamas%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=The%20Bahamas%20travel%20guide)
 
 ### 🇧🇧 Barbados
 **Entry:** Visa-free · Up to 180 days — Per your list; online immigration form. Verify.
@@ -1452,6 +1491,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $50 · $95 · $200 |
 | 📅 Best time | Dec–May |
 | 🛡️ Safety | 🟢 Low risk — Safe & welcoming. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority with a strong Pan-African pride culture. Very comfortable for Black travellers. |
 | 💱 Currency / language | BBD (2 = 1 USD) · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1485,7 +1525,7 @@
 - Peak-season prices
 - Strong currents on Atlantic coast
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Barbados%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Barbados%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Barbados%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Barbados%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Barbados%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Barbados%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Barbados%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Barbados%20travel%20guide)
 
 ### 🇩🇲 Dominica
 **Entry:** Visa-free · Up to 180 days — Per your list; online immigration form. Verify.
@@ -1498,6 +1538,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $45 · $80 · $160 |
 | 📅 Best time | Jan–Apr |
 | 🛡️ Safety | 🟢 Low risk — Very safe; rugged terrain requires care on hikes. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority nature island. Very comfortable. |
 | 💱 Currency / language | XCD · English, Creole |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1531,7 +1572,7 @@
 - Few big resorts
 - Hiking in heavy rain
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Dominica%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Dominica%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Dominica%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Dominica%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Dominica%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Dominica%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Dominica%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Dominica%20travel%20guide)
 
 ### 🇬🇩 Grenada
 **Entry:** Visa-free · Up to 90 days — Per your list; online immigration form. Verify.
@@ -1544,6 +1585,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $45 · $85 · $180 |
 | 📅 Best time | Dec–May |
 | 🛡️ Safety | 🟢 Low risk — Safe; "Spice Isle" with friendly locals. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority and welcoming; strong Pan-African history and heritage tourism. |
 | 💱 Currency / language | XCD · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1577,7 +1619,7 @@
 - Rainy season Jun–Nov
 - Limited late-night scene
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Grenada%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Grenada%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Grenada%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Grenada%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Grenada%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Grenada%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Grenada%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Grenada%20travel%20guide)
 
 ### 🇬🇾 Guyana
 **Entry:** Visa-free · Up to 90 days — Per your list; confirm and carry yellow fever card.
@@ -1590,6 +1632,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $35 · $65 · $140 |
 | 📅 Best time | Feb–Apr & Aug–Oct |
 | 🛡️ Safety | 🟠 Elevated — Georgetown has crime at night; the interior is remote. Venezuela border tension. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Mixed African and Indian heritage. Politics is ethnically polarised but visitors are rarely affected. |
 | 💱 Currency / language | GYD · English, Guyanese Creole |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1623,7 +1666,7 @@
 - Roads to interior are rough
 - Venezuela border zone
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Guyana%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guyana%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guyana%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Guyana%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Guyana%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Guyana%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Guyana%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Guyana%20travel%20guide)
 
 ### 🇯🇲 Jamaica
 **Entry:** Visa-free · Up to 90 days — Per your list; C5 form/online arrival. Verify.
@@ -1636,6 +1679,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $45 · $85 · $180 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟠 Elevated — Tourist areas OK with caution; high crime elsewhere. Hurricane Melissa (Oct 2025) devastated the west — check recovery status before booking. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Black-majority and a heritage-travel favourite. Concern is crime in some areas and recovery after Hurricane Melissa (Oct 2025), not racism. |
 | 💱 Currency / language | JMD · English, Patois |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1669,7 +1713,7 @@
 - Hurricane season
 - Aggressive vendors
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Jamaica%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Jamaica%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Jamaica%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Jamaica%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Jamaica%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Jamaica%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Jamaica%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Jamaica%20travel%20guide)
 
 ### 🇰🇳 Saint Kitts & Nevis
 **Entry:** Visa-free · Up to 90 days — Per your list; online immigration form. Verify.
@@ -1682,6 +1726,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $50 · $90 · $190 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟢 Low risk — Safe; small and close-knit. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority and calm. Very comfortable. |
 | 💱 Currency / language | XCD · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1715,7 +1760,7 @@
 - Limited nightlife
 - Flights pricey
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Saint%20Kitts%20%26%20Nevis%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Saint%20Kitts%20%26%20Nevis%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Saint%20Kitts%20%26%20Nevis%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Saint%20Kitts%20%26%20Nevis%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Saint%20Kitts%20%26%20Nevis%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Saint%20Kitts%20%26%20Nevis%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Saint%20Kitts%20%26%20Nevis%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Saint%20Kitts%20%26%20Nevis%20travel%20guide)
 
 ### 🇻🇨 St Vincent & the Grenadines
 **Entry:** Visa-free · Up to 90 days — Per your list; online immigration form. Verify.
@@ -1728,6 +1773,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $50 · $90 · $200 |
 | 📅 Best time | Dec–Apr |
 | 🛡️ Safety | 🟢 Low risk — Safe; sailing culture. |
+| ✊🏿 Black Traveller Index | 100/100 (Very comfortable) · racism risk Low — Black-majority and relaxed. Very comfortable. |
 | 💱 Currency / language | XCD · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1761,7 +1807,7 @@
 - Volcano alerts (La Soufrière)
 - Pricey outer islands
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=St%20Vincent%20%26%20the%20Grenadines%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=St%20Vincent%20%26%20the%20Grenadines%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=St%20Vincent%20%26%20the%20Grenadines%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=St%20Vincent%20%26%20the%20Grenadines%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=St%20Vincent%20%26%20the%20Grenadines%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=St%20Vincent%20%26%20the%20Grenadines%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=St%20Vincent%20%26%20the%20Grenadines%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=St%20Vincent%20%26%20the%20Grenadines%20travel%20guide)
 
 ### 🇹🇹 Trinidad & Tobago
 **Entry:** Visa-free · Up to 90 days — Per your list; TT eImmigration forms. Verify.
@@ -1774,6 +1820,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $40 · $75 · $150 |
 | 📅 Best time | Jan–May |
 | 🛡️ Safety | 🟠 Elevated — Elevated crime in parts of Trinidad (state of emergency measures in recent years) — Tobago is calmer. |
+| ✊🏿 Black Traveller Index | 72/100 (Comfortable) · racism risk Low — Mixed Afro- and Indo-Trinidadian society. Ethnic politics are not aimed at visitors; crime in parts of Trinidad is the concern. |
 | 💱 Currency / language | TTD · English |
 
 **Getting there:** No direct Accra–Caribbean flights. Routing via Europe/US can trigger TRANSIT visas for Ghanaians (e.g. Schengen airport-transit, UK DATV, US transit). Check each connection before booking — Istanbul, Casablanca, Addis Ababa, Doha and Dubai hubs are usually simpler.
@@ -1807,7 +1854,7 @@
 - Peak Carnival prices
 - Hurricane season (Tobago rarely hit)
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Trinidad%20%26%20Tobago%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Trinidad%20%26%20Tobago%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Trinidad%20%26%20Tobago%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Trinidad%20%26%20Tobago%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Trinidad%20%26%20Tobago%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Trinidad%20%26%20Tobago%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Trinidad%20%26%20Tobago%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Trinidad%20%26%20Tobago%20travel%20guide)
 
 ---
 
@@ -1824,6 +1871,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $40 · $100 · $300 |
 | 📅 Best time | Nov–Apr |
 | 🛡️ Safety | 🟢 Low risk — Very safe; alcohol only in resorts; modest dress on local islands. |
+| ✊🏿 Black Traveller Index | 78/100 (Comfortable) · racism risk Some — Very few Black visitors outside resorts, so staring and curiosity are common on local islands. Discrimination against foreign workers has been reported; resort stays are insulated. Data is limited. |
 | 💱 Currency / language | MVR (USD widely used) · Dhivehi, English |
 
 **Getting there:** No direct from Accra; Gulf hubs usually best.
@@ -1857,7 +1905,7 @@
 - Alcohol only in resorts
 - Rainy season May–Oct
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Maldives%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Maldives%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Maldives%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Maldives%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Maldives%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Maldives%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Maldives%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Maldives%20travel%20guide)
 
 ### 🇸🇬 Singapore
 **Entry:** Visa-free · 30–90 days — Visa-free per your list (some sources differ — verify at ICA before booking). SG Arrival Card within 3 days of arrival.
@@ -1870,6 +1918,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $35 · $70 · $150 |
 | 📅 Best time | Feb–Apr |
 | 🛡️ Safety | 🟢 Low risk — Extremely safe; strict laws (vaping bans, drugs = death penalty). |
+| ✊🏿 Black Traveller Index | 78/100 (Comfortable) · racism risk Some — Very safe with strict laws against racial harassment, but everyday prejudice against Black people and Africans has been reported (stares, housing, jobs), and Africans can face closer immigration questions. Tourists are usually fine. Pack hair and skin-care products you rely on. |
 | 💱 Currency / language | SGD · English, Mandarin, Malay, Tamil |
 
 **Getting there:** No direct from Accra.
@@ -1903,7 +1952,7 @@
 - Tropical rain year-round
 - Strict laws
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Singapore%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Singapore%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Singapore%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Singapore%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Singapore%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Singapore%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Singapore%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Singapore%20travel%20guide)
 
 ### 🇫🇯 Fiji
 **Entry:** Visa-free · Up to 4 months — Visa-free per your list; confirm.
@@ -1916,6 +1965,7 @@
 | 🍽️ Daily spend (budget · mid · comfort) | $40 · $75 · $150 |
 | 📅 Best time | May–Oct |
 | 🛡️ Safety | 🟢 Low risk — Very safe; tropical cyclones Nov–Apr. |
+| ✊🏿 Black Traveller Index | 78/100 (Comfortable) · racism risk Some — Black visitors are rare, so curiosity is common and usually friendly. Reliable data on experiences is thin, so treat this as unverified. |
 | 💱 Currency / language | FJD · English, Fijian, Hindi |
 
 **Getting there:** Likely Accra–Dubai–Singapore/Sydney–Nadi.
@@ -1949,7 +1999,7 @@
 - Cyclone season
 - Limited public transport
 
-**Videos:** [TikTok](https://www.tiktok.com/search?q=Fiji%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Fiji%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Fiji%20travel%20guide)
+**Videos:** [YouTube: Black traveler](https://www.youtube.com/results?search_query=Fiji%20Black%20traveler%20experience) · [YouTube: things to do](https://www.youtube.com/results?search_query=Fiji%20best%20things%20to%20do) · [TikTok](https://www.tiktok.com/search?q=Fiji%20travel%20guide) · [TikTok budget](https://www.tiktok.com/search?q=Fiji%20budget%20trip%20cost) · [YouTube](https://www.youtube.com/results?search_query=Fiji%20travel%20guide)
 
 ---
 
